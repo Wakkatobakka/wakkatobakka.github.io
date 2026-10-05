@@ -7,7 +7,8 @@
   <title>Wakkatobakka — Bridge Dev</title>
 
   <meta name="description" content="Wakkatobakka is a bridge dev focused on bringing old and unusual games to modern Android, including Dirge Bridge, DeadShot Bridge, FFVII Snowboarding Bridge, and Android Build Capsule.">
-.video-grid {
+
+  .video-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -22,6 +23,8 @@
 
 .video-card video {
     width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
     display: block;
     background: #000;
 }
@@ -98,6 +101,7 @@
       margin-top: 60px;
       color: #8b949e;
     }
+    
   </style>
 </head>
 
