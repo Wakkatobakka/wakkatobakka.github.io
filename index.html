@@ -7,7 +7,35 @@
   <title>Wakkatobakka — Bridge Dev</title>
 
   <meta name="description" content="Wakkatobakka is a bridge dev focused on bringing old and unusual games to modern Android, including Dirge Bridge, DeadShot Bridge, FFVII Snowboarding Bridge, and Android Build Capsule.">
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
 
+.video-card {
+    background: #151922;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.video-card video {
+    width: 100%;
+    display: block;
+    background: #000;
+}
+
+.video-title {
+    padding: 12px 14px;
+    font-weight: bold;
+}
+
+@media (max-width: 650px) {
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
+}
   <style>
     body {
       margin: 0;
@@ -98,7 +126,40 @@
 
     <p>Turns out that's a pretty productive question.</p>
     </div>
+    
+<h2>See it running</h2>
 
+<div class="video-grid">
+
+    <div class="video-card">
+        <video controls playsinline preload="metadata">
+            <source src="videos/FFVIIsnowboarding_short.mp4" type="video/mp4">
+        </video>
+        <div class="video-title">FFVII Snowboarding Bridge</div>
+    </div>
+
+    <div class="video-card">
+        <video controls playsinline preload="metadata">
+            <source src="videos/Rushmarine_short.mp4" type="video/mp4">
+        </video>
+        <div class="video-title">Rush Marine</div>
+    </div>
+
+    <div class="video-card">
+        <video controls playsinline preload="metadata">
+            <source src="videos/Reblue_short.mp4" type="video/mp4">
+        </video>
+        <div class="video-title">reBlue on Android</div>
+    </div>
+
+    <div class="video-card">
+        <video controls playsinline preload="metadata">
+            <source src="videos/Deadshot_short.mp4" type="video/mp4">
+        </video>
+        <div class="video-title">DeadShot Bridge</div>
+    </div>
+
+</div>
     <h2>Projects</h2>
 
     <div class="project">
