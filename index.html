@@ -27,6 +27,10 @@
 @media(max-width:760px){html{scroll-padding-top:86px}.wrap{width:calc(100% - 40px)}.header-inner{min-height:67px}.brand{font-size:18px}.brand-mark{width:28px;height:29px;font-size:20px}.menu-toggle{display:block}.nav{display:none;position:absolute;top:100%;left:0;right:0;padding:18px 20px 23px;border-bottom:1px solid var(--line);background:#0c1418;flex-direction:column;align-items:stretch;gap:0}.nav[data-open=true]{display:flex}.nav a{padding:12px 5px;font-size:14px}.nav .github-link{border-left:0;border-top:1px solid var(--line);padding-left:5px;margin-top:6px}.hero{padding:45px 0 34px}.hero-grid{grid-template-columns:1fr;gap:40px}.hero h1{font-size:clamp(61px,12vw,82px);letter-spacing:-3.5px;margin:22px 0}.hero-intro{font-size:16px;max-width:500px}.hero-actions{margin-top:25px}.hero-note{margin-top:19px;font-size:10px}.play-deck{width:min(100%,520px);justify-self:center}.video-shell video{max-height:500px}.clip-btn{font-size:10px;min-height:57px;padding-left:8px}.platform-rail{display:block;margin-top:33px;padding-top:23px}.platforms{gap:17px;margin-top:13px;font-size:12px}.platforms span:before{margin-right:6px}.section{padding-block:60px}.section-head{display:block;margin-bottom:26px}.section-head h2{font-size:35px;letter-spacing:-1.3px}.section-head p{margin-top:17px;max-width:480px;font-size:14px}.omni-grid{grid-template-columns:1fr;gap:32px}.omni h2{font-size:45px;letter-spacing:-1.9px}.omni-copy>p{max-width:none}.omni-wordmark{margin-top:14px}.play-steps{margin-top:25px}.catalog-list{max-height:320px}.bridges-grid{gap:11px}.bridge{padding:19px;min-height:210px}.bridge h3{font-size:19px;margin-top:22px}.bridge p{font-size:12px}.bridge-bottom{font-size:10px}.tools{padding-top:0}.tools-inner{padding-top:42px}.tool{grid-template-columns:24px 1fr 20px;gap:12px;padding:22px 0}.tool h3{font-size:16px}.tool p{grid-column:2;grid-row:2;font-size:12px}.tool .arrow{grid-column:3;grid-row:1}.tool-number{align-self:start;margin-top:3px}.about{padding-top:0}.maker-banner{border-radius:9px}.about-grid{grid-template-columns:1fr;gap:25px;padding-top:30px}.about blockquote{font-size:35px;max-width:420px}.about-copy p{font-size:14px}.roadmap{padding-top:0}.roadmap-title{display:block}.roadmap-title p{margin-top:10px}.roadmap-grid{grid-template-columns:1fr;gap:26px}.footer-inner{align-items:flex-start;flex-direction:column;gap:17px}.footer-links{gap:25px}}
 @media(max-width:370px){.hero-actions .btn{padding-inline:17px}.hero h1{font-size:59px}.eyebrow{font-size:10px}.bridges-grid{grid-template-columns:1fr}.bridge{min-height:185px}.catalog-top{padding-inline:16px}.catalog-list{padding-inline:16px}.catalog-footer{padding-inline:16px}.catalog-heading strong{font-size:11px}.filter{padding-inline:8px}.clip-btn{padding-left:5px;font-size:9px}.platforms{gap:12px}.platforms span:before{margin-right:4px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.btn:hover,.bridge:hover{transform:none}}
+
+/* Expandable source guide; the rest of the established site is unchanged. */
+#games{scroll-margin-top:100px}.catalog-status{margin:0;padding:13px 23px;border-bottom:1px solid var(--line);color:var(--muted);font-size:11px;line-height:1.6}.catalog-status-warning{color:var(--amber)}.catalog-list{max-height:520px;max-height:min(66vh,520px)}.game-row{display:block;padding:0}.game-summary{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:14px;padding:16px 0;cursor:pointer;list-style:none}.game-summary::-webkit-details-marker{display:none}.game-meta{display:flex;align-items:flex-end;flex-direction:column;gap:7px}.game-open{color:var(--muted);font-size:9px;white-space:nowrap}details[open] .game-open{color:var(--cyan)}.game-summary:hover strong{color:var(--cyan)}.game-body{padding:0 0 19px 12px;margin:0 0 3px;border-left:2px solid #36636e;font-size:12px;line-height:1.7;overflow-wrap:anywhere}.game-body dl{margin:0}.game-body dl>div{margin:0 0 14px}.game-body dt{color:var(--muted);font:600 9px/1.5 ui-monospace,monospace;letter-spacing:.9px;text-transform:uppercase;margin-bottom:4px}.game-body dd{margin:0;color:var(--ink)}.game-body a,.guide-intro a{color:var(--cyan);text-decoration:underline;text-underline-offset:3px}.game-body code{font-size:11px;color:#d1efbd;white-space:normal;overflow-wrap:anywhere}.game-permalink{font-size:10px}.guide-intro{font-size:13px!important}.release-line{margin:18px 0}.release-line .text-link{font-size:12px}.search:disabled{opacity:.65}summary:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}#game-list [id]{scroll-margin-top:100px}
+@media(max-width:760px){.catalog-list{max-height:64vh}.game-summary{gap:10px}.game-body{font-size:12px}.catalog-heading span{font-size:9px}.game-summary small{font-size:10px}.game-open{font-size:9px}}
 </style>
 </head>
 <body>
@@ -46,7 +50,7 @@
 <div class="eyebrow hero-label"><span class="status-dot" aria-hidden="true"></span> Wakkatobakka / Bridge dev</div>
 <h1 id="hero-title">Old games.<br><span>New home.</span></h1>
 <p class="hero-intro">I'm Wakka. I get weird old phone games running on modern Android. <strong>Omni Player is where the pile comes together.</strong></p>
-<div class="hero-actions"><a class="btn btn-primary" href="https://github.com/Wakkatobakka/Omni-Player/releases" target="_blank" rel="noopener noreferrer">Get Omni Player <span class="arrow" aria-hidden="true">↓</span></a><a class="btn btn-secondary" href="#omni">Explore the games <span aria-hidden="true">↗</span></a></div>
+<div class="hero-actions"><a class="btn btn-primary" href="https://github.com/Wakkatobakka/Omni-Player/releases" target="_blank" rel="noopener noreferrer">Get Omni Player <span class="arrow" aria-hidden="true">↓</span></a><a class="btn btn-secondary" href="#games">Explore the games <span aria-hidden="true">↗</span></a></div>
 <p class="hero-note mono"><span>ONE PERSON.</span> OLD GAMES. MANY RABBIT HOLES.</p>
 </div>
 <div class="play-deck" id="gameplay">
@@ -76,21 +80,24 @@
 <p>You supply the original game files. Load the matching game file, pick it from your library, and play.</p>
 <div class="omni-actions"><a class="btn btn-primary" href="https://github.com/Wakkatobakka/Omni-Player/releases" target="_blank" rel="noopener noreferrer">Download the player <span class="arrow" aria-hidden="true">↓</span></a><a class="text-link" href="https://github.com/Wakkatobakka/Omni-Player" target="_blank" rel="noopener noreferrer">Setup & details <span aria-hidden="true">↗</span></a></div>
 <p class="compat mono">ANDROID 11+ / ARM64 · GAME FILES SUPPLIED BY YOU</p>
+<p class="release-line"><a id="newest-release" class="text-link" href="https://github.com/Wakkatobakka/Omni-Player/releases" target="_blank" rel="noopener noreferrer">Public beta downloads &amp; update notes ↗</a></p>
+<p class="guide-intro">Looking for the game files? Pick a title from <a href="#games">the Public Pile</a> for the matching edition, filenames and source links.</p>
 <div class="play-steps" aria-label="How to play"><div><span>01</span><strong>Load your game</strong></div><div><span>02</span><strong>Find it in the library</strong></div><div><span>03</span><strong>Get playing</strong></div></div>
 </div>
 <div>
-<div class="catalog">
+<div class="catalog" id="games">
 <div class="catalog-top">
-<div class="catalog-heading"><strong>THE PUBLIC PILE</strong><span class="mono">v0.4.2 / 25 EDITIONS</span></div>
-<div class="search-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg><input class="search" id="game-search" type="search" aria-label="Search the public game catalog" placeholder="Find an old favorite…" autocomplete="off"></div>
-<div class="filters" role="group" aria-label="Filter games by platform"><button class="filter" type="button" data-platform="All" aria-pressed="true">All</button><button class="filter" type="button" data-platform="BREW" aria-pressed="false">BREW</button><button class="filter" type="button" data-platform="DoJa" aria-pressed="false">DoJa</button><button class="filter" type="button" data-platform="J2ME" aria-pressed="false">J2ME</button><button class="filter" type="button" data-platform="ExEn" aria-pressed="false">ExEn</button><button class="filter" type="button" data-platform="Zeebo" aria-pressed="false">Zeebo</button></div>
+<div class="catalog-heading"><strong>THE PUBLIC PILE</strong><span class="mono" id="catalog-size">GAME GUIDE</span></div>
+<div class="search-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg><input disabled class="search" id="game-search" type="search" aria-label="Search the public game catalog" placeholder="Find an old favorite…" autocomplete="off"></div>
+<div class="filters" id="game-filters" role="group" aria-label="Filter games by platform"></div>
 </div>
-<ul class="catalog-list" id="game-list" aria-label="Publicly supported games"></ul>
+<p class="catalog-status" id="catalog-status" role="status">Loading the game guide…</p>
+<ul class="catalog-list" id="game-list" aria-label="Publicly supported games" aria-busy="true"></ul>
 <p class="empty" id="empty-state" hidden>No matches in this catalog. Try another title or platform.</p>
-<noscript><p class="empty"><a href="https://github.com/Wakkatobakka/Omni-Player/blob/main/SUPPORTED_GAMES.txt">Open the complete supported-game list.</a></p></noscript>
-<div class="catalog-footer"><span id="game-count" aria-live="polite">24 titles</span><a href="https://github.com/Wakkatobakka/Omni-Player/blob/main/SUPPORTED_GAMES.txt" target="_blank" rel="noopener noreferrer">Editions & file requirements ↗</a></div>
+<noscript><p class="empty"><a href="https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md">Open the game, file and source guide on GitHub.</a></p></noscript>
+<div class="catalog-footer"><span id="game-count" aria-live="polite">Loading guide…</span><a href="https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md" target="_blank" rel="noopener noreferrer">Open the full game guide ↗</a></div>
 </div>
-<p class="testing-note">Match the original platform and edition. Testing and remaining bugs vary by game; individual notes are shown where known.</p>
+<p class="testing-note">Source links and exact editions come from the same maintained game guide as GitHub. Matching listings and missing source records are labelled. Public builds are betas; bugs and progression blockers may remain.</p>
 </div>
 </div>
 </section>
@@ -160,42 +167,129 @@ document.querySelectorAll('[data-clip]').forEach(b=>b.setAttribute('aria-pressed
 }));
 reduced.addEventListener('change',event=>{if(event.matches)video.pause();});
 document.addEventListener('visibilitychange',()=>{if(document.hidden)video.pause();});preview();
-const games=[
-['Banjo-Kazooie: Grunty’s Revenge Missions','ExEn','English · ExEn setup required'],
-['Biohazard: The Episodes','DoJa','Japanese · Offline edition'],
-['BioShock 3D','BREW','English'],
-['Chokkan Crash','DoJa','Japanese'],
-['Contra 4 Redux','BREW','English'],
-['DeadShot','DoJa','English'],
-['Digital Devil Story: Megami Tensei','J2ME','English'],
-['Dirge of Cerberus: Lost Episode','DoJa','English patch · Complete chapter data required'],
-['DOOM RPG','BREW','English'],
-['Earthworm Jim: Special Edition','BREW','English'],
-['Final Fantasy VII: Snowboarding','DoJa','English · Offline edition'],
-['Mega Man: Rush Marine','BREW','English · 1.1.11'],
-['Metal Gear Solid Mobile','BREW','English'],
-['Monster Hunter i','DoJa','English patch / Japanese · 2 editions'],
-['Nowhere','J2ME','English · Sony Ericsson K790'],
-['Orcs & Elves II','BREW','English'],
-['Ratchet & Clank: Going Mobile','J2ME','English'],
-['Resident Evil 4','Zeebo','Spanish / Portuguese · Zeebo / BREW'],
-['Resident Evil: Genesis','BREW','English'],
-['Rockman: Great Adventure on 5 Islands','DoJa','English patch'],
-['Rolling with Katamari','BREW','Known early stopper'],
-['Sonic Jump','DoJa','English patch'],
-['The Witcher: Crimson Trail','J2ME','Russian · Nokia N73'],
-['Wolfenstein RPG','BREW','English · 7.1.32']
-];
-let platform='All';
+// One maintained public guide, read directly from the Omni repository.
+const GUIDE_URL='https://raw.githubusercontent.com/Wakkatobakka/Omni-Player/main/GAME_GUIDE.md';
+const GUIDE_PAGE='https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md';
+const RELEASES_URL='https://api.github.com/repos/Wakkatobakka/Omni-Player/releases?per_page=100';
+const GUIDE_CACHE='omni.public-game-guide.v1';
+let games=[],platform='All',guideReady=false;
 const search=document.getElementById('game-search'),list=document.getElementById('game-list');
-function renderGames(){
-const query=search.value.trim().toLocaleLowerCase(),selected=games.filter(game=>(platform==='All'||game[1]===platform)&&game.join(' ').toLocaleLowerCase().includes(query));
-list.replaceChildren();
-selected.forEach(game=>{const row=document.createElement('li');row.className='game-row';const text=document.createElement('div'),name=document.createElement('strong'),detail=document.createElement('small'),tag=document.createElement('span');name.textContent=game[0];detail.textContent=game[2];if(game[2].startsWith('Known'))detail.className='game-warning';tag.className='game-platform';tag.textContent=game[1];text.append(name,detail);row.append(text,tag);list.append(row);});
-list.scrollTop=0;document.getElementById('game-count').textContent=selected.length+' '+(selected.length===1?'title':'titles');document.getElementById('empty-state').hidden=selected.length!==0;list.hidden=selected.length===0;
+const filters=document.getElementById('game-filters'),status=document.getElementById('catalog-status');
+
+function parseGuide(markdown){
+  if(typeof markdown!=='string'||markdown.length>1000000)throw new Error('Invalid game guide');
+  const sections=markdown.replace(/\r\n?/g,'\n').split(/^## /m).slice(1),ids=new Set();
+  const parsed=sections.map(section=>{
+    const title=section.split('\n')[0].trim();
+    const id=section.match(/<!-- game-id: ([a-z0-9]+(?:-[a-z0-9]+)*) -->/)?.[1];
+    const fields={};
+    for(const match of section.matchAll(/^- (Platform|Edition|Files|Source|Source status|Import|Credits): (.+)$/gm))fields[match[1]]=match[2].trim();
+    if(!title||!id||ids.has(id)||['Platform','Edition','Files','Source','Source status','Import'].some(k=>!fields[k]))throw new Error('Incomplete game entry');
+    ids.add(id);
+    return {id,title,platforms:fields.Platform.split(/\s*\/\s*/),edition:fields.Edition,files:fields.Files,source:fields.Source,sourceStatus:fields['Source status'],instructions:fields.Import,credits:fields.Credits||''};
+  });
+  if(!parsed.length)throw new Error('Empty game guide');
+  return parsed;
 }
+
+// Build remote text with DOM nodes; never execute or inject remote HTML.
+function appendText(parent,value){
+  const pattern=/\[([^\]]+)\]\((https:\/\/[^\s)]+)\)|`([^`]+)`/g;
+  let end=0;
+  for(const match of value.matchAll(pattern)){
+    parent.append(document.createTextNode(value.slice(end,match.index)));
+    if(match[3]!==undefined){const code=document.createElement('code');code.textContent=match[3];parent.append(code);}
+    else {const link=document.createElement('a');link.href=match[2];link.textContent=match[1]+' ↗';link.target='_blank';link.rel='noopener noreferrer';parent.append(link);}
+    end=match.index+match[0].length;
+  }
+  parent.append(document.createTextNode(value.slice(end)));
+}
+
+function addField(parent,label,value){
+  const item=document.createElement('div'),term=document.createElement('dt'),description=document.createElement('dd');
+  term.textContent=label;appendText(description,value);item.append(term,description);parent.append(item);
+}
+
+function buildFilters(){
+  const present=[...new Set(games.flatMap(g=>g.platforms))],order=['BREW','DoJa','J2ME','ExEn','Zeebo'];
+  present.sort((a,b)=>(order.indexOf(a)<0?99:order.indexOf(a))-(order.indexOf(b)<0?99:order.indexOf(b))||a.localeCompare(b));
+  filters.replaceChildren();
+  for(const name of ['All',...present]){
+    const button=document.createElement('button');button.className='filter';button.type='button';button.textContent=name;button.dataset.platform=name;button.setAttribute('aria-pressed',String(name===platform));
+    button.addEventListener('click',()=>{platform=name;filters.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));renderGames();});filters.append(button);
+  }
+}
+
+function renderGames(){
+  if(!guideReady)return;
+  const query=search.value.trim().toLocaleLowerCase();
+  const selected=games.filter(g=>(platform==='All'||g.platforms.includes(platform))&&[g.title,g.edition,g.files,...g.platforms].join(' ').toLocaleLowerCase().includes(query));
+  list.replaceChildren();
+  for(const game of selected){
+    const row=document.createElement('li');row.className='game-row';row.id='game-'+game.id;
+    const details=document.createElement('details'),summary=document.createElement('summary');summary.className='game-summary';
+    const text=document.createElement('span'),name=document.createElement('strong'),edition=document.createElement('small');name.textContent=game.title;edition.textContent=game.edition;text.append(name,edition);
+    const meta=document.createElement('span');meta.className='game-meta';
+    const tag=document.createElement('span'),hint=document.createElement('span');tag.className='game-platform';tag.textContent=game.platforms.join(' / ');hint.className='game-open';hint.textContent='Files & sources +';meta.append(tag,hint);summary.append(text,meta);
+    const body=document.createElement('div');body.className='game-body';
+    const fields=document.createElement('dl');addField(fields,'Look for',game.files);addField(fields,'Where to look',game.source);addField(fields,'Source record',game.sourceStatus);addField(fields,'Load in Omni',game.instructions);if(game.credits)addField(fields,'Credits',game.credits);
+    const anchor=document.createElement('a');anchor.className='game-permalink';anchor.href='#game-'+game.id;anchor.textContent='Link to this game';
+    body.append(fields,anchor);details.append(summary,body);row.append(details);list.append(row);
+  }
+  list.scrollTop=0;document.getElementById('game-count').textContent=selected.length+' of '+games.length+' titles';
+  document.getElementById('empty-state').hidden=selected.length!==0;list.hidden=selected.length===0;
+}
+
+function openSharedGame(){
+  if(!guideReady||!location.hash.startsWith('#game-'))return;
+  let id;try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}
+  if(!games.some(g=>'game-'+g.id===id))return;
+  if(platform!=='All'||search.value){platform='All';search.value='';buildFilters();renderGames();}
+  const row=document.getElementById(id);if(!row)return;
+  row.querySelector('details').open=true;
+  document.getElementById('games').scrollIntoView({block:'start',behavior:'auto'});
+  list.scrollTop+=row.getBoundingClientRect().top-list.getBoundingClientRect().top;
+}
+
+function showGuide(markdown,cached){
+  games=parseGuide(markdown);guideReady=true;buildFilters();renderGames();
+  search.disabled=false;list.removeAttribute('aria-busy');
+  document.getElementById('catalog-size').textContent=games.length+' TITLES';
+  status.textContent=cached?'Showing a saved guide; refresh unavailable. The GitHub guide is linked below.':'Choose a game for its files, source links and import steps.';
+  status.classList.toggle('catalog-status-warning',cached);openSharedGame();
+}
+
+async function fetchWithTimeout(url){
+  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),12000);
+  try{const response=await fetch(url,{signal:controller.signal});if(!response.ok)throw new Error('Unavailable');return await response.text();}
+  finally{clearTimeout(timer);}
+}
+
+async function loadGuide(){
+  try{
+    const markdown=await fetchWithTimeout(GUIDE_URL);showGuide(markdown,false);
+    try{localStorage.setItem(GUIDE_CACHE,markdown);}catch{}
+  }catch{
+    let cached;try{cached=localStorage.getItem(GUIDE_CACHE);}catch{}
+    if(cached){try{showGuide(cached,true);return;}catch{}}
+    list.removeAttribute('aria-busy');status.textContent='The game guide could not load here. Open it on GitHub using the link below.';status.classList.add('catalog-status-warning');document.getElementById('catalog-size').textContent='GAME GUIDE';document.getElementById('game-count').textContent='Guide available on GitHub';
+  }
+}
+
+async function loadNewestBeta(){
+  try{
+    const releases=JSON.parse(await fetchWithTimeout(RELEASES_URL));
+    if(!Array.isArray(releases))return;
+    const current=releases.filter(r=>!r.draft&&r.published_at&&/^https:\/\/github\.com\/Wakkatobakka\/Omni-Player\/releases\/tag\//.test(r.html_url||'')&&(r.assets||[]).some(a=>/\.apk$/i.test(a.name||''))).sort((a,b)=>new Date(b.published_at)-new Date(a.published_at))[0];
+    if(!current)return;
+    const link=document.getElementById('newest-release');link.href=current.html_url;link.textContent=(current.prerelease?'Newest public beta: ':'Newest public release: ')+(current.name||current.tag_name)+' ↗';
+  }catch{/* The permanent Releases link remains available without API access. */}
+}
+
 search.addEventListener('input',renderGames);
-document.querySelectorAll('[data-platform]').forEach(button=>button.addEventListener('click',()=>{platform=button.dataset.platform;document.querySelectorAll('[data-platform]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));renderGames();}));renderGames();
+window.addEventListener('hashchange',openSharedGame);
+loadGuide();loadNewestBeta();
+
 })();
 </script>
 </body>
