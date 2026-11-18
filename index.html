@@ -59,7 +59,81 @@
 /* Current public Apple Bridge collection. */
 .apple-supported{margin:21px 0 0;border:1px solid var(--line);border-radius:8px;background:#0c1418}.apple-supported summary{display:flex;align-items:center;justify-content:space-between;gap:16px;cursor:pointer;padding:14px 16px;font-size:13px;list-style:none;min-height:48px}.apple-supported summary::-webkit-details-marker{display:none}.apple-supported summary>span{color:var(--cyan);font-size:21px;line-height:1;transition:transform .15s}.apple-supported[open] summary>span{transform:rotate(45deg)}.apple-supported ul{margin:0;padding:5px 16px 15px;list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 18px}.apple-supported li{min-width:0;font-size:11px;line-height:1.6;color:var(--muted);padding:9px 0;border-top:1px solid #29373e80}.apple-supported summary:focus-visible{outline:2px solid var(--cyan);outline-offset:4px}
 @media(max-width:520px){.apple-supported ul{grid-template-columns:1fr}.apple-supported li{font-size:12px}}
+
+@font-face {
+  font-family: Playthrough Pixel;
+  src: url('playthroughs/art/pixel.ttf') format('truetype');
+  font-display: swap;
+}
+.hero-actions .btn-find {
+  border-color: var(--line);
+  color: var(--ink);
+}
+.hero-actions .btn-find:hover { border-color: var(--cyan); }
+.playthrough-preview {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 390px);
+  align-items: center;
+  gap: 24px;
+  margin-top: 44px;
+  padding: 26px clamp(16px, 4vw, 42px);
+  border: 1px solid #2b4158;
+  border-radius: 12px;
+  background: linear-gradient(120deg, #111d28, #142237);
+}
+.playthrough-preview + .platform-rail { margin-top: 32px; }
+.playthrough-preview h2 {
+  margin: 0;
+  font-size: clamp(24px, 3.5vw, 36px);
+  line-height: 1.15;
+  letter-spacing: -.8px;
+}
+.playthrough-preview-copy p {
+  margin: 10px 0 13px;
+  font-size: 14px;
+  color: var(--muted);
+}
+.playthrough-preview-copy a { min-height: 44px; }
+.playthrough-preview-meter h3 {
+  margin: 0 0 4px;
+  color: #f6f0dc;
+  font: 10px/1.6 Playthrough Pixel, monospace;
+  text-transform: uppercase;
+}
+.playthrough-preview-meter { min-height: 150px; }
+.playthrough-preview-figures { display: flex; gap: clamp(10px, 3vw, 30px); align-items: center; }
+.playthrough-preview-donut {
+  position: relative;
+  flex: 0 0 auto;
+  width: clamp(104px, 31vw, 140px);
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  color: #f6f0dc;
+}
+.playthrough-preview-donut svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.playthrough-preview-total { text-align: center; z-index: 1; }
+.playthrough-preview-total strong { display: block; font: clamp(16px, 5.5vw, 24px)/1.5 Playthrough Pixel, monospace; }
+.playthrough-preview-total span { color: #adbed0; font-size: 8px; font-weight: 750; letter-spacing: .65px; text-transform: uppercase; }
+.playthrough-preview-stats { display: grid; gap: 9px; margin: 0; }
+.playthrough-preview-stats > div { display: grid; grid-template-columns: 8px minmax(2ch, auto) minmax(0, 1fr); align-items: center; gap: 9px; }
+.playthrough-preview-stats > div::before { content: ''; width: 7px; height: 7px; border-radius: 1px; background: var(--status-color); }
+.playthrough-preview-stats dt { grid-column: 3; color: #adbed0; font-size: 13px; line-height: 1.25; }
+.playthrough-preview-stats dd { grid-area: 1 / 2; margin: 0; color: #f6f0dc; font-size: 20px; line-height: 1.2; font-weight: 780; font-variant-numeric: tabular-nums; }
+.playthrough-preview-status { color: var(--muted); font-size: 13px; }
+@media (max-width: 760px) {
+  .hero-actions .btn { flex: 1 1 0; min-width: 0; padding-inline: 10px; gap: 8px; }
+  .hero-actions .btn-find { flex: 1 1 100%; }
+  .playthrough-preview { grid-template-columns: minmax(0, 1fr); gap: 14px; margin-top: 32px; }
+  .playthrough-preview-meter { min-height: 135px; }
+}
+@media (max-width: 370px) {
+  .hero-actions .btn { font-size: 12px; }
+}
 </style>
+<script src="playthroughs/core.js?v=1.4-public" defer></script>
+<script src="playthroughs/overview.js?v=1.5-public" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -78,7 +152,7 @@
 <div class="eyebrow hero-label"><span class="status-dot" aria-hidden="true"></span> Wakkatobakka / Bridge dev</div>
 <h1 id="hero-title">Old games.<br><span>New home.</span></h1>
 <p class="hero-intro">I'm Wakka. I get weird old phone games running on modern Android. <strong>Play the collection through Omni Player and Apple Bridge.</strong></p>
-<div class="hero-actions"><a class="btn btn-primary" href="https://github.com/Wakkatobakka/Omni-Player/releases" target="_blank" rel="noopener noreferrer">Get Omni Player <span class="arrow" aria-hidden="true">↓</span></a><a class="btn btn-apple" href="https://github.com/Wakkatobakka/Apple-Bridge/releases" target="_blank" rel="noopener noreferrer">Get Apple Bridge <span class="arrow" aria-hidden="true">↓</span></a></div>
+<div class="hero-actions"><a class="btn btn-primary" href="https://github.com/Wakkatobakka/Omni-Player/releases" target="_blank" rel="noopener noreferrer">Get Omni Player <span class="arrow" aria-hidden="true">↓</span></a><a class="btn btn-apple" href="https://github.com/Wakkatobakka/Apple-Bridge/releases" target="_blank" rel="noopener noreferrer">Get Apple Bridge <span class="arrow" aria-hidden="true">↓</span></a><a class="btn btn-find" href="#games">Find a game <span class="arrow" aria-hidden="true">↓</span></a></div>
 <p class="hero-note mono"><span>ONE PERSON.</span> OLD GAMES. MANY RABBIT HOLES.</p>
 </div>
 <div class="play-deck" id="gameplay">
@@ -111,8 +185,33 @@
 <noscript><p class="media-note">Open a gameplay recording: <a href="videos/apple-bridge/silent-hill-the-escape.mp4">Silent Hill: The Escape · Apple Bridge</a> · <a href="videos/apple-bridge/metal-gear-solid-touch.mp4">Metal Gear Solid Touch · Apple Bridge</a> · <a href="videos/omni/god-of-war-betrayal.mp4">God of War: Betrayal</a> · <a href="videos/omni/monster-hunter-i.mp4">Monster Hunter i</a> · <a href="videos/omni/quake-ii.mp4">Quake II</a> · <a href="videos/omni/ffvii-snowboarding.mp4">Final Fantasy VII Snowboarding</a> · <a href="videos/omni/chokkan-crash.mp4">Chokkan Crash</a> · <a href="videos/omni/resident-evil-genesis.mp4">Resident Evil: Genesis</a> · <a href="videos/omni/rockman-five-islands.mp4">Rockman: Great Adventure on 5 Islands</a> · <a href="videos/omni/silent-hill-orphan.mp4">Silent Hill: Orphan</a> · <a href="videos/omni/rush-marine.mp4">Mega Man: Rush Marine</a> · <a href="videos/omni/resident-evil-4.mp4">Resident Evil 4</a> · <a href="videos/omni/sonic-jump.mp4">Sonic Jump</a> · <a href="videos/omni/age-of-empires-iii.mp4">Age of Empires III</a> · <a href="videos/omni/nowhere.mp4">Nowhere</a> · <a href="videos/omni/ashen.mp4">Ashen</a> · <a href="videos/Deadshot_short.mp4">Devil May Cry: DeadShot</a> · <a href="videos/Reblue_short.mp4">Blue Dragon / re:Blue</a></p></noscript>
 </div>
 </div>
+<section class="playthrough-preview" aria-labelledby="playthrough-preview-title" data-playthrough-preview>
+  <div class="playthrough-preview-copy">
+    <h2 id="playthrough-preview-title">Wakka’s Playthroughs</h2>
+    <p>My latest checkpoints across Omni Player and Apple Bridge.</p>
+    <a class="text-link" href="playthroughs/">Read my checkpoints <span aria-hidden="true">→</span></a>
+  </div>
+  <div class="playthrough-preview-meter">
+    <h3>The Big Picture</h3>
+    <div class="playthrough-preview-figures" data-overview-figures hidden>
+      <div class="playthrough-preview-donut">
+        <svg viewBox="0 0 160 160" role="img" aria-label="Progress breakdown" data-overview-chart>
+          <circle cx="80" cy="80" r="65" fill="none" stroke="#263e57" stroke-width="13"></circle>
+          <g transform="rotate(-90 80 80)"></g>
+        </svg>
+        <div class="playthrough-preview-total"><strong data-overview-count="total"></strong><span>Game editions</span></div>
+      </div>
+      <dl class="playthrough-preview-stats">
+        <div style="--status-color:#43dce5"><dt>Underway</dt><dd data-overview-count="active"></dd></div>
+        <div style="--status-color:#78d6a4"><dt>Story finished+</dt><dd data-overview-count="finished"></dd></div>
+        <div style="--status-color:#8297ae"><dt>Unrecorded</dt><dd data-overview-count="unrecorded"></dd></div>
+      </dl>
+    </div>
+    <p class="playthrough-preview-status" role="status" data-overview-status>See the playthrough log for published totals.</p>
+  </div>
+</section>
 <div class="platform-rail" id="play"><p class="mono">PICK YOUR PLAYER</p><div class="player-routes"><a href="#omni"><strong>Omni Player <span aria-hidden="true">↘</span></strong><span>BREW · DoJa · J2ME · ExEn · Zeebo · N-Gage</span></a><a href="#apple-bridge"><strong>Apple Bridge <span aria-hidden="true">↘</span></strong><span>Early iPhone games</span></a></div></div>
-<nav class="workshop-paths" aria-label="More from the workshop"><span class="mono">FOLLOW THE RABBIT HOLE</span><a href="playthroughs/">See my playthroughs <span aria-hidden="true">↗</span></a><a href="#catalogues">Find old games <span aria-hidden="true">↘</span></a><a href="#histories">See how it broke <span aria-hidden="true">↘</span></a><a href="#tools">Make things <span aria-hidden="true">↘</span></a><a href="#ripple">Read something strange <span aria-hidden="true">↘</span></a></nav>
+<nav class="workshop-paths" aria-label="More from the workshop"><span class="mono">FOLLOW THE RABBIT HOLE</span><a href="#catalogues">Browse the catalogues <span aria-hidden="true">↘</span></a><a href="#histories">See how it broke <span aria-hidden="true">↘</span></a><a href="#tools">Make things <span aria-hidden="true">↘</span></a><a href="#ripple">Read something strange <span aria-hidden="true">↘</span></a></nav>
 </div>
 </section>
 <section class="omni section" id="omni" aria-labelledby="omni-title">
@@ -131,7 +230,7 @@
 <div class="play-steps" aria-label="How to play"><div><span>01</span><strong>Load your game</strong></div><div><span>02</span><strong>Find it in the library</strong></div><div><span>03</span><strong>Get playing</strong></div></div>
 </div>
 <div>
-<div class="catalog" id="games">
+<div class="catalog" id="games" tabindex="-1">
 <div class="catalog-top">
 <div class="catalog-heading"><strong>THE PUBLIC PILE · OMNI</strong><span class="mono" id="catalog-size">GAME GUIDE</span></div>
 <div class="search-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg><input disabled class="search" id="game-search" type="search" aria-label="Search the Omni Player game catalog" placeholder="Find an old favorite…" autocomplete="off"></div>

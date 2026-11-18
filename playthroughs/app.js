@@ -1,6 +1,7 @@
 (function () {
   'use strict';
   const C = window.GameLogCore;
+  const progressOverview = window.GameLogOverview;
   const $ = selector => document.querySelector(selector);
   const $$ = selector => Array.from(document.querySelectorAll(selector));
   let data = null;
@@ -35,23 +36,8 @@
   }
   function overview() {
     const s = C.summarize(data.games);
-    $('#stat-total').textContent = s.total;
-    $('#stat-active').textContent = s.active;
-    $('#stat-finished').textContent = s.finished;
-    $('#stat-unknown').textContent = s.unrecorded;
+    progressOverview.render($('.overview'), s);
     $('#collection-count').textContent = s.total;
-    const circumference = 2 * Math.PI * 65;
-    let offset = 0;
-    const segments = [];
-    for (const st of C.STAGES) {
-      const n = s.counts[st.id];
-      if (!n) continue;
-      const length = s.total ? n / s.total * circumference : 0;
-      segments.push(`<circle cx="80" cy="80" r="65" fill="none" stroke="${st.color}" stroke-width="13" stroke-dasharray="${length} ${circumference - length}" stroke-dashoffset="${-offset}"></circle>`);
-      offset += length;
-    }
-    $('#chart-segments').innerHTML = segments.join('');
-    $('#progress-chart').setAttribute('aria-label', `${s.total} game editions: ` + C.STAGES.map(x => `${s.counts[x.id]} ${x.label.toLowerCase()}`).join(', '));
     $('#chart-legend').innerHTML = C.STAGES.map(x => `<button class="legend-item" data-stage="${x.id}" title="Filter to ${esc(x.label)}"><i style="background:${x.color}"></i>${esc(x.label)} <strong>${s.counts[x.id]}</strong></button>`).join('');
     const recorded = s.total - s.unrecorded;
     $('#overview-note').textContent = recorded ? `${recorded} of ${s.total} entries have a recorded progress stage. Overview covers my entire collection.` : 'Personal progress hasn’t been entered yet. “Unrecorded” doesn’t mean unplayed.';
@@ -94,9 +80,8 @@
     $('#load-error').hidden = true;
     $('#games').setAttribute('aria-busy', 'true');
     try {
-      const source = await fetch('data/progress.json', {cache: 'no-store'}).then(response => {if (!response.ok) throw new Error('Catalog unavailable'); return response.json();});
-      data = C.normalizeCatalog(source);
-      $('#progress-filter').innerHTML = '<option value="all">Any progress</option>' + C.STAGES.map(x => `<option value="${x.id}">${esc(x.label)}</option>`).join('') + '<option value="active">Opening + in progress</option><option value="finished">Story finished + full</option>';
+      data = await progressOverview.loadPublishedCatalog();
+      $('#progress-filter').innerHTML = '<option value="all">Any progress</option>' + C.STAGES.map(x => `<option value="${x.id}">${esc(x.label)}</option>`).join('') + '<option value="active">Underway</option><option value="finished">Story finished + full</option>';
       updatePlatformOptions();
       render();
       $('#catalogue-date').textContent = data.catalogueAsOf ? 'Catalog imported ' + new Intl.DateTimeFormat(undefined, {dateStyle: 'medium'}).format(new Date(data.catalogueAsOf)) + '. Progress dates are recorded by Wakka.' : '';
