@@ -1,0 +1,26 @@
+---
+layout: devlog
+title: Wakka’s Dev Log
+---
+<header class="log-header">
+  <h1>Wakka’s <span>Dev Log</span></h1>
+  <p>The discoveries, disasters, and whatever the hell I’m working on today.</p>
+</header>
+
+{% assign entries = site.posts | where: 'layout', 'devlog-entry' %}
+{% if entries.size > 0 %}
+  <ol class="entry-list" aria-label="Entries, newest first">
+    {% for post in entries %}
+      <li>
+        <article>
+          {% include devlog-entry-meta.html entry=post %}
+          <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+          {% assign excerpt = post.excerpt | strip_html | normalize_whitespace | strip %}
+          {% if excerpt != '' %}<p>{{ excerpt | truncatewords: 30 | escape_once }}</p>{% endif %}
+        </article>
+      </li>
+    {% endfor %}
+  </ol>
+{% else %}
+  <p class="empty-log">No entries yet.</p>
+{% endif %}

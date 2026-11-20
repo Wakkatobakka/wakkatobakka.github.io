@@ -1,0 +1,4 @@
+<div class="entry-meta">
+  <time datetime="{{ include.entry.date | date: '%Y-%m-%d' }}">{% if include.entry.date_label %}{{ include.entry.date_label | escape }} {% endif %}{{ include.entry.date | date: '%b %-d, %Y' }}</time>
+  {% if include.entry.tag %}<span class="entry-tag">{{ include.entry.tag | escape }}</span>{% endif %}
+</div>

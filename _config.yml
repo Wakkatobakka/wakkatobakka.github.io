@@ -1,0 +1,18 @@
+defaults:
+  - scope:
+      path: "devlog"
+      type: posts
+    values:
+      layout: devlog-entry
+      permalink: /devlog/:year/:month/:day/:slug/
+
+kramdown:
+  smart_quotes: [apos, apos, quot, quot]
+  typographic_symbols:
+    hellip: "..."
+    mdash: "---"
+    ndash: "--"
+    laquo: "<<"
+    raquo: ">>"
+    laquo_space: "<< "
+    raquo_space: " >>"
