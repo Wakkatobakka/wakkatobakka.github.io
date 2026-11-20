@@ -14,6 +14,7 @@ I’m Wakka. I get weird old phone games running on modern Android. This is the 
 
 - **[Omni Player](https://github.com/Wakkatobakka/Omni-Player)** — Supported old mobile games, together in one Android app. Final Fantasy, Megaman, Crash, Oh My. You supply the original game files.
 - **[Apple Bridge](https://github.com/Wakkatobakka/Apple-Bridge)** — Old iPhone games, back in your hands on Android. **21 games in v0.0.8**, including GTA Vice City, Mass Effect Infiltrator, Infinity Blade II, Dead Space, and Mass Effect Galaxy. You supply the matching original IPA files.
+- **[Wakka's Playthroughs](https://wakkatobakka.github.io/playthroughs/)**- Current recovery and progress of each Game Bridge, so you don't have to guess
 - **[The catalogues](https://wakkatobakka.github.io/#catalogues)** — BREW, DoJa, ExEn, Zeebo, J2ME, and N-gage. Searchable trails through the places and discoveries I collected while hunting for games, with links back to their sources.
 - **[Bridges Before You Played Them](https://wakkatobakka.github.io/bridges-before-you-played-them/)** — What broke, how we fixed it, and the receipts. Cloud’s chest and Ghost Gun Leon included.
 - **[The tool shed](https://wakkatobakka.github.io/#tools)** — Android Build Capsule, Artifact Passport, Workbench Continuity, and Retro Mod Pod. Things I made so I could keep making the other things.
