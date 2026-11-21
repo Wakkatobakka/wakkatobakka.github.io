@@ -1,0 +1,1072 @@
+{
+  "version": "0.6.0",
+  "games": [
+    {
+      "id": "age-of-empires-ii-mobile",
+      "title": "Age of Empires II Mobile",
+      "platforms": [
+        "ExEn"
+      ],
+      "edition": "English · V01.00.50",
+      "files": "`Age-of-Empires-II-Mobile_ExEn_EN.exn`",
+      "source": "[Choose ExEn download](https://www.myabandonware.com/game/age-of-empires-ii-mobile-wh8)",
+      "sourceStatus": "The listed edition and 128,048-byte size match the saved Omni original.",
+      "instructions": "Choose the ExEn download, then Load Game → select the EXN. Omni prepares ExEn platform support on first use; connect once, then reuse its offline cache.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-age-of-empires-ii-mobile"
+    },
+    {
+      "id": "age-of-empires-iii",
+      "title": "Age of Empires III",
+      "platforms": [
+        "J2ME"
+      ],
+      "edition": "English · Nokia 128×128 · v1.0.2",
+      "files": "`Age of empires_3.jar`",
+      "source": "[Download JAR](https://archive.org/download/HugeJavaMobileGameDump/Huge%20Java%20Mobile%20Game%20Dump%20%28mastiwap%20dir%203%20-%20nokia%29.zip/Nokia%20Games%2F128x128_s40%2FStrategy%2FAge%20of%20empires_3.jar)",
+      "sourceStatus": "The source file matches the saved Omni original.",
+      "instructions": "Load the matching standalone JAR. Other handset editions are not interchangeable.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-age-of-empires-iii"
+    },
+    {
+      "id": "ashen",
+      "title": "Ashen",
+      "platforms": [
+        "N-Gage"
+      ],
+      "edition": "Classic N-Gage edition",
+      "files": "`Ashen.rar`",
+      "source": "[Download RAR](https://archive.org/download/ngagecrackedgamescollection/N-Gage%20cracked%20games%20collection.rar/N-Gage%20cracked%20games%20collection%2FAshen.rar)",
+      "sourceStatus": "The source file matches the saved Omni original.",
+      "instructions": "Extract `Ashen.rar` from the outer collection, then load that game archive intact. Omni prepares the required platform support automatically.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-ashen"
+    },
+    {
+      "id": "assassins-creed-altairs-chronicles",
+      "title": "Assassin’s Creed: Altaïr’s Chronicles",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "Altaïr’s Chronicles 1.3.3 (iPhone)",
+      "files": "`Assassin's.Creed.Altaïr's.Chronicles v1.3.3.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/ios-ipa-collection/Assassin%27s.Creed.Altai%CC%88r%27s.Chronicles%20v1.3.3.ipa) · [View source page](https://archive.org/details/ios-ipa-collection)",
+      "instructions": "In Omni, tap `Load Game` and select the complete original IPA. If it came in split archive parts, extract them into one IPA first.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#assassins-creed-altairs-chronicles"
+    },
+    {
+      "id": "baldur-s-gate",
+      "title": "Baldur's Gate",
+      "platforms": [
+        "J2ME"
+      ],
+      "edition": "Sorrent · English · v1.0.0 · 176×208",
+      "files": "`BaldursGate-176.jar` · 163,195 bytes",
+      "source": "[Download matching JAR](https://archive.org/download/HugeJavaMobileGameDump/Huge%20Java%20Mobile%20Game%20Dump%20%28mastiwap%20dir%204%29.zip/Samsung%20Games%2FSamsung%20%28240x320%29%20Jar%20Games%2FBaldurs_Gate-j2me-samsung-%28240x320%29%20-%20Mastiwap.Com.jar)",
+      "sourceStatus": "The archive JAR matches the saved Omni original byte for byte. Its archive filename includes Samsung 240×320.",
+      "instructions": "Load the linked JAR directly. Omni accepts this file with its archive filename.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-baldur-s-gate"
+    },
+    {
+      "id": "banjo-kazooie-grunty-s-revenge-missions",
+      "title": "Banjo-Kazooie: Grunty’s Revenge Missions",
+      "platforms": [
+        "ExEn"
+      ],
+      "edition": "English",
+      "files": "`Banjo-Kazooie-Grunty-s-Revenge-Missions_ExEn_EN.exn`",
+      "source": "[Choose ExEn download](https://www.myabandonware.com/game/banjo-kazooie-grunty-s-revenge-missions-yz7)",
+      "sourceStatus": "The listed edition and 128,380-byte size match the saved Omni original.",
+      "instructions": "Select the ExEn version, not J2ME. Load the EXN; ExEn platform setup is automatic on first use, with offline reuse afterward.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-banjo-kazooie-grunty-s-revenge-missions"
+    },
+    {
+      "id": "biohazard-the-episodes",
+      "title": "Biohazard: The Episodes",
+      "platforms": [
+        "DoJa"
+      ],
+      "edition": "Japanese · offline edition",
+      "files": "`Biohazard_The_Episodes_doja.zip` · **Offline** variant",
+      "source": "[Keitai World Launcher entry](https://wakkatobakka.github.io/doja-archive/games/biohazard-the-episodes--76526ae6/index.html)",
+      "sourceStatus": "In Keitai World Launcher, select `Biohazard The Episodes`.",
+      "instructions": "Use **Offline**. Keep its JAR, JAM and scratchpad together in the ZIP.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-biohazard-the-episodes"
+    },
+    {
+      "id": "bioshock-3d",
+      "title": "BioShock 3D",
+      "platforms": [
+        "BREW"
+      ],
+      "edition": "English · 176 BREW build",
+      "files": "`BioShock3D_176.rar` (same file as the saved `BioShock3D_BREW(1).rar`)",
+      "source": "[Download RAR](https://archive.org/download/qualcomm-brew-games/Qualcomm%20BREW%20Games.zip/brew2010%2FBioShock3D_176.rar)",
+      "sourceStatus": "The source file matches the saved Omni original.",
+      "instructions": "Select `BioShock3D_176.rar` intact in `Load Game`.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-bioshock-3d"
+    },
+    {
+      "id": "bounce-boing-voyage",
+      "title": "Bounce Boing Voyage",
+      "platforms": [
+        "N-Gage 2.0"
+      ],
+      "edition": "Nokia 5320 compatibility profile",
+      "files": "`Bounce.Boing.Voyage.n-gage`",
+      "source": "[Download .n-gage](https://archive.org/download/Dance.Fabulous.nGage/N-Gage%202.0/Games/Full/Bounce.Boing.Voyage.n-gage)",
+      "sourceStatus": "The source file matches the saved Omni original.",
+      "instructions": "Select the full `.n-gage` package directly in Load Game. Omni prepares the required platform support automatically; use the Full collection rather than its Trial downloads.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-bounce-boing-voyage"
+    },
+    {
+      "id": "brothers-in-arms",
+      "title": "Brothers in Arms",
+      "platforms": [
+        "BREW"
+      ],
+      "edition": "240-screen BREW edition",
+      "files": "`BIA240.rar`",
+      "source": "[Download RAR](https://archive.org/download/qualcomm-brew-games/Qualcomm%20BREW%20Games.zip/brew2010%2FBIA240.rar)",
+      "sourceStatus": "The source file matches the saved Omni original.",
+      "instructions": "Find `brew2010/BIA240.rar` in the collection. Keep the game archive intact; Load Game → select it. The separately supplied BIA176 edition is not the recorded input for this bridge.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-brothers-in-arms"
+    },
+    {
+      "id": "castlevania-puzzle-encore-of-the-night",
+      "title": "Castlevania Puzzle: Encore of the Night",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "v1.0.10 / iOS 3.0",
+      "files": "`Castlevania_Puzzle__Encore_of_the_Night_1.0.10_ios_3.0.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/Castlevania_Puzzle__Encore_of_the_Night_1.0.10_ios_3.0/Castlevania_Puzzle__Encore_of_the_Night_1.0.10_ios_3.0.ipa) · [View source page](https://archive.org/details/Castlevania_Puzzle__Encore_of_the_Night_1.0.10_ios_3.0)",
+      "instructions": "In Omni, tap `Load Game` and select the complete original IPA. If it came in split archive parts, extract them into one IPA first.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#castlevania-puzzle-encore-of-the-night"
+    },
+    {
+      "id": "chaos-rings",
+      "title": "Chaos Rings",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "v1.1.0 / iOS 3.0",
+      "files": "`ChaosRings_v1.1.0_os30.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/ios_3_ipa/ChaosRings_v1.1.0_os30.ipa) · [View source page](https://archive.org/details/ios_3_ipa)",
+      "instructions": "In Omni, tap `Load Game` and select the complete original IPA. If it came in split archive parts, extract them into one IPA first.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#chaos-rings"
+    },
+    {
+      "id": "chokkan-crash",
+      "title": "Chokkan Crash",
+      "platforms": [
+        "DoJa"
+      ],
+      "edition": "Japanese",
+      "files": "`Chokkan_Crash_Bandicoot_doja.zip` · **Original** variant",
+      "source": "[Keitai World Launcher entry](https://wakkatobakka.github.io/doja-archive/games/chokkan-crash-bandicoot--881af37b/index.html)",
+      "sourceStatus": "In Keitai World Launcher, select `Chokkan Crash Bandicoot`.",
+      "instructions": "Use **Original** and load the complete DoJa ZIP.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-chokkan-crash"
+    },
+    {
+      "id": "contra-4-redux",
+      "title": "Contra 4 Redux",
+      "platforms": [
+        "BREW"
+      ],
+      "edition": "English",
+      "files": "`Contra-4_BREW_EN.zip`",
+      "source": "[Choose English BREW download](https://www.myabandonware.com/game/contra-4-wdz)",
+      "sourceStatus": "The current My Abandonware BREW download matches the original `Contra-4_BREW_EN.zip` from the saved download history byte for byte.",
+      "instructions": "Under **BREW version**, download the English game file and load the complete ZIP intact.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-contra-4-redux"
+    },
+    {
+      "id": "crash-bandicoot",
+      "title": "Crash Bandicoot",
+      "platforms": [
+        "ExEn"
+      ],
+      "edition": "English · original v1.9",
+      "files": "`Crash-Bandicoot_ExEn_EN.exn`",
+      "source": "[Choose ExEn download](https://www.myabandonware.com/game/crash-bandicoot-yy7)",
+      "sourceStatus": "The listed edition and 110,536-byte size match the saved Omni original.",
+      "instructions": "Choose the ExEn download, then Load Game → select the EXN. Omni prepares ExEn platform support on first use; connect once, then reuse its offline cache.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-crash-bandicoot"
+    },
+    {
+      "id": "crash-nitro-kart",
+      "title": "Crash Nitro Kart",
+      "platforms": [
+        "N-Gage"
+      ],
+      "edition": "Classic N-Gage edition",
+      "files": "`Crash Nitro Kart.rar`",
+      "source": "[Download RAR](https://archive.org/download/ngagecrackedgamescollection/N-Gage%20cracked%20games%20collection.rar/N-Gage%20cracked%20games%20collection%2FCrash%20Nitro%20Kart.rar)",
+      "sourceStatus": "The source file matches the saved Omni original.",
+      "instructions": "Extract the named game archive from the outer collection and load it intact. This is the classic N-Gage game; Crash Bandicoot Nitro Kart 3D for N-Gage 2.0 is a different release.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-crash-nitro-kart"
+    },
+    {
+      "id": "ddr-sa",
+      "title": "DDR SA",
+      "platforms": [
+        "J2ME"
+      ],
+      "edition": "Original v0.4 · boxon · 2006",
+      "files": "`DDRSA.jar`",
+      "source": "[Download JAR from boxon](https://kumisuke.jp/boxon/gamessa/ddrsa/DDRSA.jar)",
+      "sourceStatus": "The source file matches the saved Omni original.",
+      "instructions": "Load the original `DDRSA.jar`. Omni supplies the original Ni-hao! starter-song content automatically and includes the separately identified Night Shift and Pocket Circuit bridge compositions. No separate starter-song setup is required.",
+      "credits": "boxon created the original game; TAM Music Factory supplied the original sample MIDI. Wakka's bridge restoration and added compositions are identified separately.",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-ddr-sa"
+    },
+    {
+      "id": "dead-rising",
+      "title": "Dead Rising",
+      "platforms": [
+        "J2ME"
+      ],
+      "edition": "v1.0.1 · 176×208",
+      "files": "`DeadRising.jar` · 311,535 bytes",
+      "source": "[Choose 2 MB J2ME bundle](https://www.myabandonware.com/game/dead-rising-wc4)",
+      "sourceStatus": "The bundle’s `(a2).jar` matches the saved Omni original byte for byte.",
+      "instructions": "Under **J2ME version**, choose the English **v1.0.1** download listed at **2 MB**. Extract `Dead Rising (2008)(Capcom Interactive, Inc.)(v1.0.1)(a2).jar` and select that JAR in `Load Game`.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-dead-rising"
+    },
+    {
+      "id": "dead-space",
+      "title": "Dead Space",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "1.0.3 / iOS 3.0",
+      "files": "`Dead_Space_v1.0.3_os30.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/ios_3_ipa/Dead_Space_v1.0.3_os30.ipa) · [View source page](https://archive.org/details/ios_3_ipa)",
+      "instructions": "In Omni, tap `Load Game` and select the complete original IPA. If it came in split archive parts, extract them into one IPA first.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#dead-space"
+    },
+    {
+      "id": "deadshot",
+      "title": "DeadShot",
+      "platforms": [
+        "DoJa"
+      ],
+      "edition": "English · Devil May Cry: DeadShot",
+      "files": "`Devil_May_Cry_Deadshot_doja.zip`",
+      "source": "[Keitai World Launcher entry](https://wakkatobakka.github.io/doja-archive/games/devil-may-cry-deadshot--ae689f62/index.html)",
+      "sourceStatus": "In Keitai World Launcher, select `Devil May Cry Deadshot`.",
+      "instructions": "Load the whole ZIP with JAR, JAM and scratchpad.",
+      "credits": "[Individual bridge notes and credits](https://github.com/Wakkatobakka/DeadShot-Bridge)",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-deadshot"
+    },
+    {
+      "id": "devil-may-cry-4-refrain",
+      "title": "Devil May Cry 4: Refrain",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "1.05.01 / iOS 4.1",
+      "files": "`Devil_May_Cry_4_refrain_1.05.01_ios_4.1.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/Devil_May_Cry_4_refrain_1.05.01_ios_4.1/Devil_May_Cry_4_refrain_1.05.01_ios_4.1.ipa) · [View source page](https://archive.org/details/Devil_May_Cry_4_refrain_1.05.01_ios_4.1)",
+      "instructions": "In Omni, tap `Load Game` and select the complete original IPA. If it came in split archive parts, extract them into one IPA first.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#devil-may-cry-4-refrain"
+    },
+    {
+      "id": "digital-devil-story-megami-tensei",
+      "title": "Digital Devil Story: Megami Tensei",
+      "platforms": [
+        "J2ME"
+      ],
+      "edition": "English",
+      "files": "`Digital-Devil-Story-Megami-Tensei_J2ME_EN.jar`",
+      "source": "[Choose English J2ME](https://www.myabandonware.com/game/digital-devil-story-megami-tensei-9sz)",
+      "sourceStatus": "The listed edition and 183,416-byte size match the saved Omni original.",
+      "instructions": "Choose the 179 KB English J2ME download. Load the JAR directly.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-digital-devil-story-megami-tensei"
+    },
+    {
+      "id": "dirge-of-cerberus-lost-episode",
+      "title": "Dirge of Cerberus: Lost Episode",
+      "platforms": [
+        "DoJa"
+      ],
+      "edition": "English patch · complete English 1.0 package",
+      "files": "Complete English 1.0 package with game JAR, JAM, scratchpad and all 15 SD chapter JARs.",
+      "source": "[Keitai World Launcher entry](https://wakkatobakka.github.io/doja-archive/games/final-fantasy-7-dirge-of-cerberus-lost-episode--d29675e2/index.html)",
+      "sourceStatus": "In Keitai World Launcher, select `[ENGLISH PATCH] Final Fantasy 7 - Dirge of Cerberus - Lost Episode`.",
+      "instructions": "Get the **English Patch** game download and its **SD Card Data**. Keep the game files and all chapters in one ZIP for Omni. If the SD data comes separately, place the chapter JARs in an `sd/` folder in the ZIP. Load the complete ZIP in Omni.",
+      "credits": "[Individual bridge notes and credits](https://github.com/Wakkatobakka/Dirge-Bridge)",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-dirge-of-cerberus-lost-episode"
+    },
+    {
+      "id": "doom-ii-rpg",
+      "title": "DOOM II RPG",
+      "platforms": [
+        "BREW"
+      ],
+      "edition": "English · LG AX830",
+      "files": "`d2rp.zip`",
+      "source": "[Download ZIP](https://archive.org/download/qualcomm-brew-games/Qualcomm%20BREW%20Games.zip/brew2018%2Fd2rp.zip)",
+      "sourceStatus": "The source file matches the saved Omni original.",
+      "instructions": "Find `brew2018/d2rp.zip` in the collection. Keep the game archive intact; Load Game → select it.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-doom-ii-rpg"
+    },
+    {
+      "id": "doom-resurrection",
+      "title": "Doom Resurrection",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "v1.0.1 / iOS 2.2.1",
+      "files": "`Resurrection_v1.0.1_os221.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/ios_2_ipa/Resurrection_v1.0.1_os221.ipa) · [View source page](https://archive.org/details/ios_2_ipa)",
+      "instructions": "In Omni, tap `Load Game` and select the complete original IPA. If it came in split archive parts, extract them into one IPA first.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#doom-resurrection"
+    },
+    {
+      "id": "doom-rpg",
+      "title": "DOOM RPG",
+      "platforms": [
+        "BREW"
+      ],
+      "edition": "English",
+      "files": "`doomrpg.zip`",
+      "source": "[Download ZIP](https://archive.org/download/doomrpg_brew/doomrpg.zip)",
+      "sourceStatus": "The source file matches the saved Omni original.",
+      "instructions": "Choose BREW, not J2ME. Load the original ZIP intact.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-doom-rpg"
+    },
+    {
+      "id": "dragon-island",
+      "title": "Dragon Island",
+      "platforms": [
+        "BREW"
+      ],
+      "edition": "English · Macrospace v1.0.2 · 240×320",
+      "files": "`DragonIsland_320.rar`",
+      "source": "[Download RAR](https://archive.org/download/qualcomm-brew-games/Qualcomm%20BREW%20Games.zip/brew2010%2FDragonIsland_320.rar)",
+      "sourceStatus": "The source file matches the saved Omni original.",
+      "instructions": "Find `brew2010/DragonIsland_320.rar` in the collection. Keep the game archive intact; Load Game → select it.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-dragon-island"
+    },
+    {
+      "id": "dragon-sword",
+      "title": "Dragon Sword",
+      "platforms": [
+        "BREW"
+      ],
+      "edition": "English · v1.0.0 · 240×320",
+      "files": "`DragonSword.rar`",
+      "source": "[Download RAR](https://archive.org/download/qualcomm-brew-games/Qualcomm%20BREW%20Games.zip/brew2010%2FDragonSword.rar)",
+      "sourceStatus": "The source file matches the saved Omni original.",
+      "instructions": "Find `brew2010/DragonSword.rar` in the collection. Keep the game archive intact; Load Game → select it.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-dragon-sword"
+    },
+    {
+      "id": "driv3r",
+      "title": "Driv3r",
+      "platforms": [
+        "BREW"
+      ],
+      "edition": "BREW edition",
+      "files": "`Driv3r.rar`",
+      "source": "[Download RAR](https://archive.org/download/qualcomm-brew-games/Qualcomm%20BREW%20Games.zip/brew2010%2FDriv3r.rar)",
+      "sourceStatus": "The source file matches the saved Omni original.",
+      "instructions": "Find `brew2010/Driv3r.rar` in the collection. Keep the game archive intact; Load Game → select it.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-driv3r"
+    },
+    {
+      "id": "duke-nukem-3d",
+      "title": "Duke Nukem 3D",
+      "platforms": [
+        "BREW"
+      ],
+      "edition": "BREW edition",
+      "files": "`DukeNukem3D_114.rar`",
+      "source": "[Download RAR](https://archive.org/download/qualcomm-brew-games/Qualcomm%20BREW%20Games.zip/brew2010%2FDukeNukem3D_114.rar)",
+      "sourceStatus": "The source file matches the saved Omni original.",
+      "instructions": "Find `brew2010/DukeNukem3D_114.rar` in the collection. Keep the game archive intact; Load Game → select it. This entry is BREW; an ExEn Duke download is a different edition.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-duke-nukem-3d"
+    },
+    {
+      "id": "earthworm-jim-special-edition",
+      "title": "Earthworm Jim: Special Edition",
+      "platforms": [
+        "BREW"
+      ],
+      "edition": "English",
+      "files": "`Earthworm-Jim-Special-Edition_BREW_EN.zip`",
+      "source": "[Choose English BREW download](https://www.myabandonware.com/game/earthworm-jim-special-edition-wa0)",
+      "sourceStatus": "The current My Abandonware BREW download matches the saved Omni original byte for byte.",
+      "instructions": "Under **BREW version**, download the English game file and load the complete ZIP intact. `Earthworm Jim.jar` is the separate Java edition.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-earthworm-jim-special-edition"
+    },
+    {
+      "id": "final-fantasy-vii-snowboarding",
+      "title": "Final Fantasy VII: Snowboarding",
+      "platforms": [
+        "DoJa"
+      ],
+      "edition": "English · offline edition",
+      "files": "English-patched **Offline** download containing `game-offline-english.jar`, `game-offline-english.jam` and `game-offline-english.sp`.",
+      "source": "[Keitai World Launcher entry](https://wakkatobakka.github.io/doja-archive/games/final-fantasy-7-snowboarding--9d7097ec/index.html)",
+      "sourceStatus": "In Keitai World Launcher, select `[ENGLISH PATCH] Final Fantasy VII Snowboarding`.",
+      "instructions": "Choose the English Patch entry’s **Offline** variant. Keep all three files together and load the ZIP.",
+      "credits": "[Individual bridge notes and credits](https://github.com/Wakkatobakka/FFVII-Snowboarding-Bridge)",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-final-fantasy-vii-snowboarding"
+    },
+    {
+      "id": "flappy-bird",
+      "title": "Flappy Bird",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "v1.2 / iOS 6.0",
+      "files": "`FlappyBird 1.2.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/ios-ipa-collection/FlappyBird%201.2.ipa) · [View source page](https://archive.org/details/ios-ipa-collection)",
+      "instructions": "In Omni, tap `Load Game` and select the complete original IPA. If it came in split archive parts, extract them into one IPA first.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#flappy-bird"
+    },
+    {
+      "id": "garou-mark-of-the-wolves",
+      "title": "GAROU: Mark of the Wolves",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "v1.0 / iOS 7.0",
+      "files": "`GAROU MARK OF THE WOLVES 1.0.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/ios-ipa-collection/GAROU%20MARK%20OF%20THE%20WOLVES%201.0.ipa) · [View source page](https://archive.org/details/ios-ipa-collection)",
+      "instructions": "In Omni, tap `Load Game` and select the complete original IPA. If it came in split archive parts, extract them into one IPA first.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#garou-mark-of-the-wolves"
+    },
+    {
+      "id": "god-of-war-betrayal",
+      "title": "God of War: Betrayal",
+      "platforms": [
+        "J2ME"
+      ],
+      "edition": "Nokia 352×416 · v1.4.58 · English, French, Spanish, German, Italian, Portuguese",
+      "files": "`God of War - Betrayal [1.4.58] [LockedRes] [352x416] [En,Fr,Es,De,It,Pt].jar` inside `God of War - Betrayal.zip`.",
+      "source": "[Download multi-edition ZIP](https://archive.org/download/j2me-hipnosis/God%20of%20War%20-%20Betrayal.zip)",
+      "sourceStatus": "The source file matches the saved Omni original.",
+      "instructions": "The ZIP contains multiple handset versions. Extract the named 352×416 v1.4.58 JAR and select that JAR in Load Game.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-god-of-war-betrayal"
+    },
+    {
+      "id": "gta-vice-city",
+      "title": "GTA Vice City",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "1.3 / iOS 4.3",
+      "files": "`Grand Theft Auto Vice City 1.3.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/ios-ipa-collection/Grand%20Theft%20Auto%20Vice%20City%201.3.ipa) · [View source page](https://archive.org/details/ios-ipa-collection)",
+      "instructions": "In Omni, tap `Load Game` and select the complete original IPA. If it came in split archive parts, extract them into one IPA first.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#gta-vice-city"
+    },
+    {
+      "id": "infinity-blade-ii",
+      "title": "Infinity Blade II",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "9059.4 / iOS 3.2",
+      "files": "`Infinity Blade II 9059.4.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/ios-ipa-collection/Infinity%20Blade%20II%209059.4.ipa) · [View source page](https://archive.org/details/ios-ipa-collection)",
+      "instructions": "In Omni, tap `Load Game` and select the complete original IPA. If it came in split archive parts, extract them into one IPA first.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#infinity-blade-ii"
+    },
+    {
+      "id": "kingdom-hearts-v-cast",
+      "title": "Kingdom Hearts V CAST",
+      "platforms": [
+        "BREW"
+      ],
+      "edition": "English · recovered chapters",
+      "files": "`khvc_original.zip`",
+      "source": "[Download ZIP from Drive](https://drive.usercontent.google.com/download?id=15vA80gl_MJCKEUyAm8aFytDU8vwz0KiM&export=download)",
+      "sourceStatus": "The source file matches the saved Omni original.",
+      "instructions": "Use the fuller original archive, including the Swerve engine, descriptor and chapter data. The separate engine-only ZIP or smaller Chapter 1 download is not an equivalent complete input.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-kingdom-hearts-v-cast"
+    },
+    {
+      "id": "lost-in-blue-mobile",
+      "title": "Lost in Blue Mobile",
+      "platforms": [
+        "DoJa"
+      ],
+      "edition": "Japanese · Marina & Riku · Patched",
+      "files": "`Lost_in_Blue_Mobile_-_Marina___Riku-hen_doja.7z` · **Patched** variant",
+      "source": "[Keitai World Launcher entry](https://wakkatobakka.github.io/doja-archive/games/lost-in-blue-mobile-marina-riku-hen--a9ceb499/index.html)",
+      "sourceStatus": "In Keitai World Launcher, select `Lost in Blue Mobile - Marina & Riku-hen`.",
+      "instructions": "Use the **Patched** variant. Keep the JAR, JAM and scratchpad together. Load the complete 7z from the launcher, or keep the Patched folder’s files together in a ZIP.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-lost-in-blue-mobile"
+    },
+    {
+      "id": "mass-effect-galaxy",
+      "title": "Mass Effect Galaxy",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "v1.1 / iOS 2.2.1 · English text",
+      "files": "`Mass_Effect_Galaxy_1.1_ios_2.2.1.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/Mass_Effect_Galaxy_1.1_ios_2.2.1/Mass_Effect_Galaxy_1.1_ios_2.2.1.ipa) · [View source page](https://archive.org/details/Mass_Effect_Galaxy_1.1_ios_2.2.1)",
+      "instructions": "In Omni, tap `Load Game` and select the complete original IPA. If it came in split archive parts, extract them into one IPA first.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#mass-effect-galaxy"
+    },
+    {
+      "id": "mass-effect-infiltrator",
+      "title": "Mass Effect Infiltrator",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "1.0.1 / iOS 3.0",
+      "files": "`ME_Infiltrator_v1.0.1_os30.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/ios_3_ipa/ME_Infiltrator_v1.0.1_os30.ipa) · [View source page](https://archive.org/details/ios_3_ipa)",
+      "instructions": "In Omni, tap `Load Game` and select the complete original IPA. If it came in split archive parts, extract them into one IPA first.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#mass-effect-infiltrator"
+    },
+    {
+      "id": "mega-man-rush-marine",
+      "title": "Mega Man: Rush Marine",
+      "platforms": [
+        "BREW"
+      ],
+      "edition": "English · v1.1.11",
+      "files": "`Mega-Man-Rush-Marine_BREW_EN_Capcom-1111.zip`",
+      "source": "[Choose BREW 1.1.11](https://www.myabandonware.com/game/mega-man-rush-marine-vw9)",
+      "sourceStatus": "The listed edition and 202,374-byte size match the saved Omni original.",
+      "instructions": "Choose English BREW **1.1.11** (198 KB on the source page). Load the complete ZIP.",
+      "credits": "[Individual bridge notes and credits](https://github.com/Wakkatobakka/Rush-Marine-Bridge)",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-mega-man-rush-marine"
+    },
+    {
+      "id": "metal-gear-solid-mobile",
+      "title": "Metal Gear Solid Mobile",
+      "platforms": [
+        "BREW"
+      ],
+      "edition": "English · US full game",
+      "files": "`mgsmobile_us_full_unsigned.zip`",
+      "source": "[Download US BREW ZIP](https://archive.org/download/mgsmobile_us_full_unsigned/mgsmobile_us_full_unsigned.zip)",
+      "sourceStatus": "The source ZIP matches the saved US full-game BREW original.",
+      "instructions": "Keep the complete US BREW ZIP intact and select it in `Load Game`.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-metal-gear-solid-mobile"
+    },
+    {
+      "id": "metal-gear-solid-touch",
+      "title": "Metal Gear Solid Touch",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "v1.0.0 / iOS 2.0",
+      "files": "`Metal Gear Solid Touch (US) (V1.0.0) (iOS2.0).ipa`",
+      "source": "[Download original IPA](https://archive.org/download/1-metal-gean-solid-touch/Metal%20Gear%20Solid%20Touch%20%28US%29%20%28V1.0.0%29%20%28iOS2.0%29.ipa) · [View source page](https://archive.org/details/1-metal-gean-solid-touch)",
+      "instructions": "In Omni, tap `Load Game` and select the complete original IPA. If it came in split archive parts, extract them into one IPA first.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#metal-gear-solid-touch"
+    },
+    {
+      "id": "monster-hunter-i",
+      "title": "Monster Hunter i",
+      "platforms": [
+        "DoJa"
+      ],
+      "edition": "English patch and Japanese · one title with two language editions",
+      "files": "`ENGLISH_PATCH__Monster_Hunter_i_for_SH_doja.zip` for English or `Monster_Hunter_i_for_SH_doja.zip` for Japanese.",
+      "source": "[Keitai World Launcher entry](https://wakkatobakka.github.io/doja-archive/games/monster-hunter-i-for-sh--c05e73b0/index.html)",
+      "sourceStatus": "In Keitai World Launcher, select `[ENGLISH PATCH] Monster Hunter i for SH` or `Monster Hunter i for SH`.",
+      "instructions": "For English, choose the **English Patch** entry. For Japanese, use the **Sideloadable** variant. Load the complete DoJa archive. Omni groups the two editions under one game.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-monster-hunter-i"
+    },
+    {
+      "id": "monster-hunter-dynamic-hunting",
+      "title": "Monster Hunter: Dynamic Hunting",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "1.03.00 / iOS 4.1",
+      "files": "`MONSTER HUNTER Dynamic Hunting 1.03.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/ios-ipa-collection/MONSTER%20HUNTER%20Dynamic%20Hunting%201.03.ipa) · [View source page](https://archive.org/details/ios-ipa-collection)",
+      "instructions": "In Omni, tap `Load Game` and select the complete original IPA. If it came in split archive parts, extract them into one IPA first.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#monster-hunter-dynamic-hunting"
+    },
+    {
+      "id": "mutant-alert",
+      "title": "Mutant Alert",
+      "platforms": [
+        "ExEn"
+      ],
+      "edition": "English · v1.2",
+      "files": "`Mutant-Alert_ExEn_EN.exn`",
+      "source": "[Choose ExEn download](https://www.myabandonware.com/game/mutant-alert-yym)",
+      "sourceStatus": "The listed edition and 127,928-byte size match the saved Omni original.",
+      "instructions": "Choose the ExEn download, then Load Game → select the EXN. Omni prepares ExEn platform support on first use; connect once, then reuse its offline cache.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-mutant-alert"
+    },
+    {
+      "id": "nova-hd",
+      "title": "N.O.V.A. HD",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "N.O.V.A. HD 1.0.7 (iPad / iOS 3.2)",
+      "files": "`N.O.V.A. - Near Orbit Vanguard Alliance HD 1.0.7.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/ios-ipa-collection/N.O.V.A.%20-%20Near%20Orbit%20Vanguard%20Alliance%20HD%201.0.7.ipa) · [View source page](https://archive.org/details/ios-ipa-collection)",
+      "instructions": "In Omni, tap `Load Game` and select the complete original IPA. If it came in split archive parts, extract them into one IPA first.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#nova-hd"
+    },
+    {
+      "id": "need-for-speed-carbon",
+      "title": "Need for Speed Carbon",
+      "platforms": [
+        "Zeebo",
+        "BREW"
+      ],
+      "edition": "Portuguese (Brazil) · Domine a Cidade",
+      "files": "`Need For Speed - Carbon - Domine a Cidade.zip`",
+      "source": "[Download Zeebo ZIP](https://archive.org/download/zeebo-arquivista/Need%20For%20Speed%20-%20Carbon%20-%20Domine%20a%20Cidade.zip)",
+      "sourceStatus": "The archive’s published checksum matches the saved Omni original.",
+      "instructions": "Load the matching complete Zeebo/BREW archive. PC, console, Android and J2ME editions are different inputs.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-need-for-speed-carbon"
+    },
+    {
+      "id": "nowhere",
+      "title": "Nowhere",
+      "platforms": [
+        "J2ME"
+      ],
+      "edition": "English · Sony Ericsson K790 · v01.00.05",
+      "files": "`Nowhere_J2ME_EN_v010005-Sony-Ericsson-K790.jar`",
+      "source": "[Choose Sony Ericsson K790](https://www.myabandonware.com/game/nowhere-w3p)",
+      "sourceStatus": "The listed edition and 199,672-byte size match the saved Omni original.",
+      "instructions": "Choose **Sony Ericsson K790** under English **v01.00.05** (195 KB). Load the JAR directly.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-nowhere"
+    },
+    {
+      "id": "orcs-elves-ii",
+      "title": "Orcs & Elves II",
+      "platforms": [
+        "BREW"
+      ],
+      "edition": "English · v7.0.41",
+      "files": "`oe2.zip` (same file as `Orcs-Elves-II_BREW_EN_Electronic-Arts-7041.zip`)",
+      "source": "[Download BREW ZIP](https://archive.org/download/qualcomm-brew-games/Qualcomm%20BREW%20Games.zip/brew2018%2Foe2.zip)",
+      "sourceStatus": "The source file matches the saved Omni original.",
+      "instructions": "Load the complete BREW ZIP.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-orcs-elves-ii"
+    },
+    {
+      "id": "pocket-kingdom-own-the-world",
+      "title": "Pocket Kingdom: Own the World",
+      "platforms": [
+        "N-Gage"
+      ],
+      "edition": "USA / Europe · English, French, German, Spanish, Italian · 08.11.2004",
+      "files": "`Pocket-Kingdom-Own-the-World_N-Gage_EN-FR-DE-ES-IT_USA-Europe-EnFrDeEsIt-08112004.zip`",
+      "source": "[Choose USA/Europe 08.11.2004](https://www.myabandonware.com/game/pocket-kingdom-own-the-world-ms1)",
+      "sourceStatus": "The listed edition and 11,193,539-byte size match the saved Omni original.",
+      "instructions": "Choose the USA/Europe 08.11.2004 N-Gage download matching the named ZIP, then load it intact. The separately listed Review Kit packages are different downloads.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-pocket-kingdom-own-the-world"
+    },
+    {
+      "id": "prey-invasion",
+      "title": "Prey Invasion",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "Prey Invasion 1.0 (iPhone OS 2.1)",
+      "files": "`Prey_Invasion_1.0_ios_2.1.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/Prey_Invasion_1.0_ios_2.1/Prey_Invasion_1.0_ios_2.1.ipa) · [View source page](https://archive.org/details/Prey_Invasion_1.0_ios_2.1)",
+      "instructions": "In Omni, tap `Load Game` and select the complete original IPA. If it came in split archive parts, extract them into one IPA first.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#prey-invasion"
+    },
+    {
+      "id": "quake-ii",
+      "title": "Quake II",
+      "platforms": [
+        "Zeebo",
+        "BREW"
+      ],
+      "edition": "Portuguese (Brazil)",
+      "files": "`Quake 2.zip`",
+      "source": "[Download Zeebo ZIP](https://archive.org/download/zeebo-arquivista/Quake%202.zip)",
+      "sourceStatus": "The archive’s published checksum matches the saved Omni original.",
+      "instructions": "Use the Zeebo/BREW original, not the PC, console or Java game. Keep the original ZIP intact.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-quake-ii"
+    },
+    {
+      "id": "ratchet-clank-going-mobile",
+      "title": "Ratchet & Clank: Going Mobile",
+      "platforms": [
+        "J2ME"
+      ],
+      "edition": "English · v1.0.10",
+      "files": "`Ratchet-Clank-Going-Mobile_J2ME_EN_v1010.jar` · 247,872 bytes",
+      "source": "[Choose first v1.0.10](https://www.myabandonware.com/game/ratchet-clank-going-mobile-wvd)",
+      "sourceStatus": "The listed edition and 247,872-byte size match the saved Omni original.",
+      "instructions": "Choose the **first** English v1.0.10 (242 KB) entry. The second v1.0.10 is 247,925 bytes. Load the 247,872-byte JAR directly.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-ratchet-clank-going-mobile"
+    },
+    {
+      "id": "resident-evil-4",
+      "title": "Resident Evil 4",
+      "platforms": [
+        "Zeebo",
+        "BREW"
+      ],
+      "edition": "Spanish / Portuguese",
+      "files": "`Resident-Evil-4-Mobile-Edition_Zeebo_ES-PT.zip`",
+      "source": "[Choose Zeebo download](https://www.myabandonware.com/game/resident-evil-4-mobile-edition-t3v)",
+      "sourceStatus": "The listed edition and 3,921,407-byte size match the saved Omni original.",
+      "instructions": "Choose the **Zeebo** download at the linked source and load that ZIP intact.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-resident-evil-4"
+    },
+    {
+      "id": "resident-evil-degeneration",
+      "title": "Resident Evil: Degeneration",
+      "platforms": [
+        "N-Gage 2.0"
+      ],
+      "edition": "Nokia 5320 compatibility profile",
+      "files": "`Resident.Evil.Degeneration.n-gage`",
+      "source": "[Download .n-gage](https://archive.org/download/Dance.Fabulous.nGage/N-Gage%202.0/Games/Full/Resident.Evil.Degeneration.n-gage)",
+      "sourceStatus": "The archive’s published checksum matches the saved Omni original.",
+      "instructions": "Load the matching full `.n-gage` package directly. Omni prepares the required platform support automatically. A J2ME Resident Evil: Degeneration JAR is a different edition.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-resident-evil-degeneration"
+    },
+    {
+      "id": "resident-evil-genesis",
+      "title": "Resident Evil: Genesis",
+      "platforms": [
+        "BREW"
+      ],
+      "edition": "English",
+      "files": "`REGenesis.rar`",
+      "source": "[Download RAR](https://archive.org/download/qualcomm-brew-games/Qualcomm%20BREW%20Games.zip/brew2010%2FREGenesis.rar)",
+      "sourceStatus": "The source file matches the saved Omni original.",
+      "instructions": "Load `REGenesis.rar` intact. The collection’s `ResidentEvil.rar` is a separate package.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-resident-evil-genesis"
+    },
+    {
+      "id": "resident-evil-uprising",
+      "title": "Resident Evil: Uprising",
+      "platforms": [
+        "J2ME"
+      ],
+      "edition": "Glu Mobile · v1.0.0 · English · 240×320",
+      "files": "`residentev_3lwb4anw.jar` · 853,715 bytes",
+      "source": "[Choose Phoneky JAR](https://mobile.phoneky.com/games/?s=download&id=j4j23480)",
+      "sourceStatus": "The Phoneky download matches the saved Omni original byte for byte.",
+      "instructions": "On Phoneky, tap “Download Game,” then “Alternative Download Link” when the download box opens. Close any full-page ad and load the downloaded JAR directly in Omni.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-resident-evil-uprising"
+    },
+    {
+      "id": "rockman-great-adventure-on-5-islands",
+      "title": "Rockman: Great Adventure on 5 Islands",
+      "platforms": [
+        "DoJa"
+      ],
+      "edition": "English patch · Localized",
+      "files": "`ENGLISH_PATCH-Localized__Rockman_DASH__Great_Adventure_on_5_Islands_doja.zip`",
+      "source": "[Keitai World Launcher entry](https://wakkatobakka.github.io/doja-archive/games/rockman-dash-great-adventure-on-5-islands--ad429f85/index.html)",
+      "sourceStatus": "In Keitai World Launcher, select `[ENGLISH PATCH-Localized] Rockman DASH, Great Adventure on 5 Islands`.",
+      "instructions": "Choose **English Patch, Localized**. Keep the complete DoJa package together and load the ZIP.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-rockman-great-adventure-on-5-islands"
+    },
+    {
+      "id": "rolling-with-katamari",
+      "title": "Rolling with Katamari",
+      "platforms": [
+        "BREW"
+      ],
+      "edition": "English",
+      "files": "`Katamari.rar`",
+      "source": "[Download BREW RAR](https://archive.org/download/qualcomm-brew-games/Qualcomm%20BREW%20Games.zip/brew2010%2FKatamari.rar)",
+      "sourceStatus": "The three game files required by Omni match the release’s import fingerprints.",
+      "instructions": "Load `Katamari.rar` intact. This bridge still has a known early progression blocker.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-rolling-with-katamari"
+    },
+    {
+      "id": "samurai-ii-vengeance",
+      "title": "Samurai II: Vengeance",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "Samurai II 1.0.1 (iOS 3.2)",
+      "files": "`Samurai2 1.0.1.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/ios-ipa-collection/Samurai2%201.0.1.ipa) · [View source page](https://archive.org/details/ios-ipa-collection)",
+      "instructions": "In Omni, tap `Load Game` and select the complete original IPA. If it came in split archive parts, extract them into one IPA first.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#samurai-ii-vengeance"
+    },
+    {
+      "id": "silent-hill-orphan",
+      "title": "Silent Hill: Orphan",
+      "platforms": [
+        "J2ME"
+      ],
+      "edition": "240×320 · six original languages",
+      "files": "`silenthill.jar` (the supplied copy was named `silenthill.jar.zip`).",
+      "source": "[Get silenthill.jar](https://www.mediafire.com/file/27xqe2zxd01caj5/silenthill.jar/file)",
+      "sourceStatus": "This is the recorded original download page. Its listed JAR size matches the saved original. The download itself was unavailable for a fresh file check.",
+      "instructions": "Load silenthill.jar. If your copy is named silenthill.jar.zip, it is already the Java archive: rename it to silenthill.jar, rather than extracting all of its internal files.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-silent-hill-orphan"
+    },
+    {
+      "id": "silent-hill-the-escape",
+      "title": "Silent Hill: The Escape",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "iOS 1.0.0 / iPhone OS 2.0",
+      "files": "`SilentHillTheEscape.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/SilentHillTheEscape/SilentHillTheEscape.ipa) · [View source page](https://archive.org/details/SilentHillTheEscape)",
+      "instructions": "In Omni, tap `Load Game` and select the complete original IPA. If it came in split archive parts, extract them into one IPA first.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#silent-hill-the-escape"
+    },
+    {
+      "id": "sonic-jump",
+      "title": "Sonic Jump",
+      "platforms": [
+        "DoJa"
+      ],
+      "edition": "English patch",
+      "files": "`ENGLISH_PATCH__Sonic_Jump_doja.zip`",
+      "source": "[Keitai World Launcher entry](https://wakkatobakka.github.io/doja-archive/games/sonic-jump--48b3c9a0/index.html)",
+      "sourceStatus": "In Keitai World Launcher, select `[ENGLISH PATCH] Sonic Jump`.",
+      "instructions": "Use the **English Patch** entry and load the entire DoJa ZIP.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-sonic-jump"
+    },
+    {
+      "id": "sonic-n",
+      "title": "Sonic N",
+      "platforms": [
+        "N-Gage"
+      ],
+      "edition": "Classic N-Gage edition",
+      "files": "`SonicN.rar`",
+      "source": "[Download RAR](https://archive.org/download/ngagecrackedgamescollection/N-Gage%20cracked%20games%20collection.rar/N-Gage%20cracked%20games%20collection%2FSonicN.rar)",
+      "sourceStatus": "The source file matches the saved Omni original.",
+      "instructions": "Extract `SonicN.rar` from the outer collection, then load that game archive intact. Omni prepares the required platform support automatically.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-sonic-n"
+    },
+    {
+      "id": "south-park",
+      "title": "South Park",
+      "platforms": [
+        "ExEn"
+      ],
+      "edition": "English · 13 original minigames",
+      "files": "`South-Park_ExEn_EN.exn`",
+      "source": "[Choose ExEn download](https://www.myabandonware.com/game/south-park-yyu)",
+      "sourceStatus": "The listed edition and 130,816-byte size match the saved Omni original.",
+      "instructions": "Choose the ExEn download, then Load Game → select the EXN. Omni prepares ExEn platform support on first use; connect once, then reuse its offline cache.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-south-park"
+    },
+    {
+      "id": "spider-man-2-3d",
+      "title": "Spider-Man 2 3D",
+      "platforms": [
+        "BREW"
+      ],
+      "edition": "English · NY Rooftops",
+      "files": "`Spider-Man-2-3D-NY-Rooftops_BREW_EN.zip`",
+      "source": "[Choose BREW NY Rooftops](https://www.myabandonware.com/game/spider-man-2-3d-ny-rooftops-y7x)",
+      "sourceStatus": "The listed edition and 288,174-byte size match the saved Omni original.",
+      "instructions": "Choose BREW and load the complete ZIP.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-spider-man-2-3d"
+    },
+    {
+      "id": "spider-man-doc-ock",
+      "title": "Spider-Man: Doc Ock",
+      "platforms": [
+        "J2ME"
+      ],
+      "edition": "Spider-Man VS Doc Ock · Sony Pictures · v6.2.20",
+      "files": "`spider - Mastiwap.Com.jar`",
+      "source": "[Download JAR](https://archive.org/download/HugeJavaMobileGameDump/Huge%20Java%20Mobile%20Game%20Dump%20%28mastiwap%20dir%201%29.zip/_2A_2ASpecial%20Games%20Collection%2F1111%20Java%20Games%2FSpider-man%20VS%20Doc%20Ock%2Fspider%20-%20Mastiwap.Com.jar)",
+      "sourceStatus": "The source file matches the saved Omni original.",
+      "instructions": "Load the matching standalone JAR.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-spider-man-doc-ock"
+    },
+    {
+      "id": "spider-man-total-mayhem",
+      "title": "Spider-Man: Total Mayhem",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "1.0.0 / iOS 3.0",
+      "files": "`Spider-Man Total Mayhem 1.0.0.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/ios-ipa-collection/Spider-Man%20Total%20Mayhem%201.0.0.ipa) · [View source page](https://archive.org/details/ios-ipa-collection)",
+      "instructions": "In Omni, tap `Load Game` and select the complete original IPA. If it came in split archive parts, extract them into one IPA first.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#spider-man-total-mayhem"
+    },
+    {
+      "id": "star-wars-the-force-unleashed",
+      "title": "Star Wars: The Force Unleashed",
+      "platforms": [
+        "N-Gage 2.0"
+      ],
+      "edition": "Nokia 5320 compatibility profile",
+      "files": "`Star.Wars.The.Force.Unleashed.n-gage`",
+      "source": "[Download .n-gage](https://archive.org/download/Dance.Fabulous.nGage/N-Gage%202.0/Games/Full/Star.Wars.The.Force.Unleashed.n-gage)",
+      "sourceStatus": "The source file matches the saved Omni original.",
+      "instructions": "Load the full `.n-gage` package directly. Omni prepares the required platform support automatically; J2ME, PC and console releases are different inputs.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-star-wars-the-force-unleashed"
+    },
+    {
+      "id": "techwars",
+      "title": "TechWars",
+      "platforms": [
+        "N-Gage"
+      ],
+      "edition": "Supported Symbian / classic N-Gage package",
+      "files": "`TechWars.rar`",
+      "source": "[Download RAR](https://archive.org/download/ngagecrackedgamescollection/N-Gage%20cracked%20games%20collection.rar/N-Gage%20cracked%20games%20collection%2FTechWars.rar)",
+      "sourceStatus": "The source file matches the saved Omni original.",
+      "instructions": "Extract `TechWars.rar` from the outer collection and load that game archive intact. Omni handles its compatibility preparation automatically.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-techwars"
+    },
+    {
+      "id": "the-elder-scrolls-iv-oblivion",
+      "title": "The Elder Scrolls IV: Oblivion",
+      "platforms": [
+        "J2ME"
+      ],
+      "edition": "English · v1.0.10 · 240×320",
+      "files": "`the_elder_scrolls_oblivion_240x320-17026.jar`",
+      "source": "[Download JAR](https://archive.org/download/oblivionmobile_202003/the_elder_scrolls_oblivion_240x320-17026.jar)",
+      "sourceStatus": "The source file matches the saved Omni original.",
+      "instructions": "Load the supported original English JAR. Omni applies the restored menu music and combat sounds automatically; players do not need to find or assemble a Chinese audio-donor package.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-the-elder-scrolls-iv-oblivion"
+    },
+    {
+      "id": "the-elder-scrolls-travels-shadowkey",
+      "title": "The Elder Scrolls Travels: Shadowkey",
+      "platforms": [
+        "N-Gage"
+      ],
+      "edition": "Classic N-Gage edition",
+      "files": "`The Elder Scrolls Travels - Shadowkey.rar`",
+      "source": "[Download RAR](https://archive.org/download/ngagecrackedgamescollection/N-Gage%20cracked%20games%20collection.rar/N-Gage%20cracked%20games%20collection%2FThe%20Elder%20Scrolls%20Travels%20-%20Shadowkey.rar)",
+      "sourceStatus": "The source file matches the saved Omni original.",
+      "instructions": "Extract the named game archive from the outer collection, then load it intact. Omni prepares the required platform support automatically. Oblivion's J2ME JAR is a separate game.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-the-elder-scrolls-travels-shadowkey"
+    },
+    {
+      "id": "the-sims-2-pets",
+      "title": "The Sims 2: Pets",
+      "platforms": [
+        "J2ME"
+      ],
+      "edition": "v4.4.44",
+      "files": "`The_Sims_2 _-_Pets - Mastiwap.Com.jar`",
+      "source": "[Download JAR](https://archive.org/download/HugeJavaMobileGameDump/Huge%20Java%20Mobile%20Game%20Dump%20%28mastiwap%20dir%202%29.zip/Mobile_Games%2FNokia%20Games%2FNokia_S60V5%2F452%20Games%20N95%208Gb%2FThe_Sims_2%20_-_Pets%20-%20Mastiwap.Com.jar)",
+      "sourceStatus": "The source file matches the saved Omni original.",
+      "instructions": "Load the matching standalone JAR.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-the-sims-2-pets"
+    },
+    {
+      "id": "the-witcher-crimson-trail",
+      "title": "The Witcher: Crimson Trail",
+      "platforms": [
+        "J2ME"
+      ],
+      "edition": "Nokia N73 · v1.0.0",
+      "files": "`The-Witcher-Crimson-Trail_J2ME_EN_v100-Nokia-N73.jar` · 267,557 bytes",
+      "source": "[Choose Nokia N73](https://www.myabandonware.com/game/the-witcher-crimson-trail-vgp)",
+      "sourceStatus": "The listed edition and 267,557-byte size match the saved Omni original.",
+      "instructions": "Choose **Nokia N73, v1.0.0** (261 KB). The listing and filename say English. Omni labels its matching saved JAR Russian. Choose by handset, version and file size.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-the-witcher-crimson-trail"
+    },
+    {
+      "id": "wolfenstein-rpg",
+      "title": "Wolfenstein RPG",
+      "platforms": [
+        "BREW"
+      ],
+      "edition": "English · v7.1.32",
+      "files": "`Wolfenstein-RPG_BREW_EN_Electronic-Arts-7132-7132.zip`",
+      "source": "[Choose BREW 7.1.32](https://www.myabandonware.com/game/wolfenstein-rpg-vf8)",
+      "sourceStatus": "The listed edition and 2,180,903-byte size match the saved Omni original.",
+      "instructions": "Choose BREW, not J2ME, and keep the complete ZIP intact.",
+      "credits": "",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-wolfenstein-rpg"
+    },
+    {
+      "id": "zenonia",
+      "title": "Zenonia",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "1.7 / iOS 3.0",
+      "files": "`Zenonia_v1.7_os30.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/ios_3_ipa/Zenonia_v1.7_os30.ipa) · [View source page](https://archive.org/details/ios_3_ipa)",
+      "instructions": "In Omni, tap `Load Game` and select the complete original IPA. If it came in split archive parts, extract them into one IPA first.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#zenonia"
+    },
+    {
+      "id": "zombie-infection",
+      "title": "Zombie Infection",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "v1.0.0 / iOS 2.2.1",
+      "files": "`Zombie_Infection_1.0.0_ios_2.2.1.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/Zombie_Infection_1.0.0_ios_2.2.1/Zombie_Infection_1.0.0_ios_2.2.1.ipa) · [View source page](https://archive.org/details/Zombie_Infection_1.0.0_ios_2.2.1)",
+      "instructions": "In Omni, tap `Load Game` and select the complete original IPA. If it came in split archive parts, extract them into one IPA first.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#zombie-infection"
+    }
+  ]
+}
