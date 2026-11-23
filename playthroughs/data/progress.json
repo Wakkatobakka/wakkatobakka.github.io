@@ -1,18 +1,19 @@
 {
   "schemaVersion": 1,
-  "title": "Wakka’s Playthroughs",
-  "updatedAt": "2026-11-17T20:27:32.064Z",
+  "title": "Wakka鈥檚 Playthroughs",
+  "updatedAt": "2026-11-23T04:59:59.817Z",
   "catalogueAsOf": "2026-11-17T03:47:24.827586+00:00",
   "games": [
     {
       "id": "classic-age-of-empires-ii-mobile",
       "title": "Age of Empires II Mobile",
       "platform": "ExEn",
-      "edition": "English · V01.00.50",
+      "edition": "English 路 V01.00.50",
       "players": [
         "omni"
       ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#age-of-empires-ii-mobile",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#age-of
+-empires-ii-mobile",
       "art": null,
       "status": "opening",
       "checkpoint": "",
@@ -23,7 +24,7 @@
       "id": "classic-age-of-empires-iii",
       "title": "Age of Empires III",
       "platform": "J2ME",
-      "edition": "English · Nokia 128×128 · v1.0.2",
+      "edition": "English 路 Nokia 128脳128 路 v1.0.2",
       "players": [
         "omni"
       ],
@@ -51,9 +52,9 @@
     },
     {
       "id": "ios-assassins-creed-altairs-chronicles",
-      "title": "Assassin’s Creed: Altaïr’s Chronicles",
+      "title": "Assassin鈥檚 Creed: Alta茂r鈥檚 Chronicles",
       "platform": "iOS",
-      "edition": "Altaïr’s Chronicles 1.3.3 (iPhone)",
+      "edition": "Alta茂r鈥檚 Chronicles 1.3.3 (iPhone)",
       "players": [
         "omni",
         "apple-bridge"
@@ -69,7 +70,7 @@
       "id": "classic-baldur-s-gate",
       "title": "Baldur's Gate",
       "platform": "J2ME",
-      "edition": "English · v1.0.0",
+      "edition": "English 路 v1.0.0",
       "players": [
         "omni"
       ],
@@ -82,7 +83,7 @@
     },
     {
       "id": "classic-banjo-kazooie-grunty-s-revenge-missions",
-      "title": "Banjo-Kazooie: Grunty’s Revenge Missions",
+      "title": "Banjo-Kazooie: Grunty鈥檚 Revenge Missions",
       "platform": "ExEn",
       "edition": "English",
       "players": [
@@ -99,11 +100,12 @@
       "id": "classic-biohazard-the-episodes",
       "title": "Biohazard: The Episodes",
       "platform": "DoJa",
-      "edition": "Japanese · offline edition",
+      "edition": "Japanese 路 offline edition",
       "players": [
         "omni"
       ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#biohazard-the-episodes",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#biohazard-the
+-episodes",
       "art": "art/classic-biohazard-the-episodes.png",
       "status": "opening",
       "checkpoint": "",
@@ -119,7 +121,8 @@
         "omni"
       ],
       "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#bioshock-3d",
-      "art": "art/classic-bioshock-3d-original-screen.png",
+      "art": "art/classic-bioshock-3d-origin
+al-screen.png",
       "status": "in-progress",
       "checkpoint": "",
       "lastPlayed": null,
@@ -134,7 +137,8 @@
         "omni"
       ],
       "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#bounce-boing-voyage",
-      "art": "art/classic-bounce-boing-voyage.png",
+      "art": "art/
+classic-bounce-boing-voyage.png",
       "status": "opening",
       "checkpoint": "",
       "lastPlayed": null,
@@ -149,7 +153,8 @@
         "omni"
       ],
       "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#brothers-in-arms",
-      "art": "art/classic-brothers-in-arms.png",
+      "art": "art/
+classic-brothers-in-arms.png",
       "status": "opening",
       "checkpoint": "",
       "lastPlayed": null,
@@ -164,7 +169,8 @@
         "omni",
         "apple-bridge"
       ],
-      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#castlevania-puzzle-encore-of-the-night",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#castlevania
+-puzzle-encore-of-the-night",
       "art": "art/ios-castlevania-puzzle-encore-of-the-night-store.jpg",
       "status": "in-progress",
       "checkpoint": "",
@@ -221,7 +227,7 @@
       "id": "classic-crash-bandicoot",
       "title": "Crash Bandicoot",
       "platform": "ExEn",
-      "edition": "English · original v1.9",
+      "edition": "English 路 original v1.9",
       "players": [
         "omni"
       ],
@@ -251,7 +257,7 @@
       "id": "classic-ddr-sa",
       "title": "DDR SA",
       "platform": "J2ME",
-      "edition": "Original v0.4 · boxon · 2006",
+      "edition": "Original v0.4 路 boxon 路 2006",
       "players": [
         "omni"
       ],
@@ -297,7 +303,7 @@
       "id": "classic-deadshot",
       "title": "DeadShot",
       "platform": "DoJa",
-      "edition": "English · Devil May Cry: DeadShot",
+      "edition": "English 路 Devil May Cry: DeadShot",
       "players": [
         "omni"
       ],
@@ -320,13 +326,14 @@
       "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#devil-may-cry-4-refrain",
       "art": "art/ios-devil-may-cry-4-refrain.jpg",
       "status": "opening",
-      "checkpoint": "",
+      "checkpoint": "Into the 3rd level",
       "lastPlayed": null,
-      "updatedAt": null
+      "updatedAt": "2026-11-23T04:56:57.555Z"
     },
     {
       "id": "classic-digital-devil-story-megami-tensei",
-      "title": "Digital Devil Story: Megami Tensei",
+      "title": "Digital Devil Story: Megami 
+Tensei",
       "platform": "J2ME",
       "edition": "English",
       "players": [
@@ -343,7 +350,7 @@
       "id": "classic-dirge-of-cerberus-lost-episode",
       "title": "Dirge of Cerberus: Lost Episode",
       "platform": "DoJa",
-      "edition": "English patch · complete English 1.0 package",
+      "edition": "English patch 路 complete English 1.0 package",
       "players": [
         "omni"
       ],
@@ -358,7 +365,7 @@
       "id": "classic-doom-ii-rpg",
       "title": "DOOM II RPG",
       "platform": "BREW",
-      "edition": "English · LG AX830",
+      "edition": "English 路 LG AX830",
       "players": [
         "omni"
       ],
@@ -404,7 +411,7 @@
       "id": "classic-dragon-island",
       "title": "Dragon Island",
       "platform": "BREW",
-      "edition": "English · Macrospace v1.0.2 · 240×320",
+      "edition": "English 路 Macrospace v1.0.2 路 240脳320",
       "players": [
         "omni"
       ],
@@ -419,7 +426,7 @@
       "id": "classic-dragon-sword",
       "title": "Dragon Sword",
       "platform": "BREW",
-      "edition": "English · v1.0.0 · 240×320",
+      "edition": "English 路 v1.0.0 路 240脳320",
       "players": [
         "omni"
       ],
@@ -438,7 +445,8 @@
       "players": [
         "omni"
       ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#driv3r",
+      "guideUrl": "https://github.com
+/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#driv3r",
       "art": "art/classic-driv3r-original-screen.png",
       "status": "opening",
       "checkpoint": "",
@@ -453,7 +461,8 @@
       "players": [
         "omni"
       ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#duke-nukem-3d",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#duke-nukem
+-3d",
       "art": "art/classic-duke-nukem-3d.png",
       "status": "opening",
       "checkpoint": "",
@@ -468,7 +477,8 @@
       "players": [
         "omni"
       ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#earthworm-jim-special-edition",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob
+/main/GAME_GUIDE.md#earthworm-jim-special-edition",
       "art": "art/classic-earthworm-jim-special-edition.png",
       "status": "opening",
       "checkpoint": "",
@@ -479,7 +489,7 @@
       "id": "classic-final-fantasy-vii-snowboarding",
       "title": "Final Fantasy VII: Snowboarding",
       "platform": "DoJa",
-      "edition": "English · offline edition",
+      "edition": "English 路 offline edition",
       "players": [
         "omni"
       ],
@@ -502,9 +512,9 @@
       "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#flappy-bird",
       "art": "art/ios-flappy-bird-store.jpg",
       "status": "in-progress",
-      "checkpoint": "Literally no idea how I'm going to consider this complete. lol love this game",
+      "checkpoint": "Literally no idea how I'm going to consider this complete. lol fuck this game",
       "lastPlayed": null,
-      "updatedAt": null
+      "updatedAt": "2026-11-23T04:58:03.441Z"
     },
     {
       "id": "ios-garou-mark-of-the-wolves",
@@ -518,15 +528,15 @@
       "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#garou-mark-of-the-wolves",
       "art": "art/ios-garou-mark-of-the-wolves.webp",
       "status": "in-progress",
-      "checkpoint": "",
+      "checkpoint": "touchHLE compatibility crash when a match is lost.",
       "lastPlayed": null,
-      "updatedAt": null
+      "updatedAt": "2026-11-23T04:57:49.977Z"
     },
     {
       "id": "classic-god-of-war-betrayal",
       "title": "God of War: Betrayal",
       "platform": "J2ME",
-      "edition": "Nokia 352×416 · v1.4.58 · English, French, Spanish, German, Italian, Portuguese",
+      "edition": "Nokia 352脳416 路 v1.4.58 路 English, French, Spanish, German, Italian, Portuguese",
       "players": [
         "omni"
       ],
@@ -565,15 +575,15 @@
       "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#infinity-blade-ii",
       "art": "art/ios-infinity-blade-ii-store.jpg",
       "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": null
+      "checkpoint": "touchHLE compatibility crash at first like boss dude",
+      "lastPlayed": "2026-11-21",
+      "updatedAt": "2026-11-23T04:55:40.806Z"
     },
     {
       "id": "classic-kingdom-hearts-v-cast",
       "title": "Kingdom Hearts V CAST",
       "platform": "BREW",
-      "edition": "English · recovered chapters",
+      "edition": "English 路 recovered chapters",
       "players": [
         "omni"
       ],
@@ -588,7 +598,7 @@
       "id": "ios-mass-effect-galaxy",
       "title": "Mass Effect Galaxy",
       "platform": "iOS",
-      "edition": "v1.1 / iOS 2.2.1 · English text",
+      "edition": "v1.1 / iOS 2.2.1 路 English text",
       "players": [
         "omni",
         "apple-bridge"
@@ -613,587 +623,4 @@
       "art": "art/ios-mass-effect-infiltrator-store.jpg",
       "status": "opening",
       "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": null
-    },
-    {
-      "id": "classic-mega-man-rush-marine",
-      "title": "Mega Man: Rush Marine",
-      "platform": "BREW",
-      "edition": "English · v1.1.11",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#mega-man-rush-marine",
-      "art": "art/classic-mega-man-rush-marine-catalog-cover.jpg",
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": null
-    },
-    {
-      "id": "classic-metal-gear-solid-mobile",
-      "title": "Metal Gear Solid Mobile",
-      "platform": "BREW",
-      "edition": "English",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#metal-gear-solid-mobile",
-      "art": "art/classic-metal-gear-solid-mobile.png",
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": null
-    },
-    {
-      "id": "ios-metal-gear-solid-touch",
-      "title": "Metal Gear Solid Touch",
-      "platform": "iOS",
-      "edition": "v1.0.0 / iOS 2.0",
-      "players": [
-        "omni",
-        "apple-bridge"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#metal-gear-solid-touch",
-      "art": "art/ios-metal-gear-solid-touch-store.jpg",
-      "status": "in-progress",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": null
-    },
-    {
-      "id": "classic-monster-hunter-i",
-      "title": "Monster Hunter i",
-      "platform": "DoJa",
-      "edition": "English patch and Japanese · one title with two language editions",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#monster-hunter-i",
-      "art": "art/classic-monster-hunter-i.png",
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": null
-    },
-    {
-      "id": "ios-monster-hunter-dynamic-hunting",
-      "title": "Monster Hunter: Dynamic Hunting",
-      "platform": "iOS",
-      "edition": "1.03.00 / iOS 4.1",
-      "players": [
-        "omni",
-        "apple-bridge"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#monster-hunter-dynamic-hunting",
-      "art": "art/ios-monster-hunter-dynamic-hunting-store.jpg",
-      "status": "in-progress",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": null
-    },
-    {
-      "id": "classic-mutant-alert",
-      "title": "Mutant Alert",
-      "platform": "ExEn",
-      "edition": "English · v1.2",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#mutant-alert",
-      "art": "art/classic-mutant-alert-original-screen.png",
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": null
-    },
-    {
-      "id": "ios-nova-hd",
-      "title": "N.O.V.A. HD",
-      "platform": "iOS",
-      "edition": "N.O.V.A. HD 1.0.7 (iPad / iOS 3.2)",
-      "players": [
-        "omni",
-        "apple-bridge"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#nova-hd",
-      "art": "art/ios-nova-hd-store.jpg",
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": null
-    },
-    {
-      "id": "classic-need-for-speed-carbon",
-      "title": "Need for Speed Carbon",
-      "platform": "Zeebo / BREW",
-      "edition": "Portuguese (Brazil) · Domine a Cidade",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#need-for-speed-carbon",
-      "art": null,
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": null
-    },
-    {
-      "id": "classic-nowhere",
-      "title": "Nowhere",
-      "platform": "J2ME",
-      "edition": "English · Sony Ericsson K790",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#nowhere",
-      "art": "art/classic-nowhere.png",
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": null
-    },
-    {
-      "id": "classic-orcs-elves-ii",
-      "title": "Orcs & Elves II",
-      "platform": "BREW",
-      "edition": "English",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#orcs--elves-ii",
-      "art": "art/classic-orcs-elves-ii.png",
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:22:58.088Z"
-    },
-    {
-      "id": "classic-pocket-kingdom-own-the-world",
-      "title": "Pocket Kingdom: Own the World",
-      "platform": "N-Gage",
-      "edition": "USA / Europe · English, French, German, Spanish, Italian · 08.11.2004",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#pocket-kingdom-own-the-world",
-      "art": "art/classic-pocket-kingdom-own-the-world-original-cover.jpg",
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:23:02.742Z"
-    },
-    {
-      "id": "ios-prey-invasion",
-      "title": "Prey Invasion",
-      "platform": "iOS",
-      "edition": "Prey Invasion 1.0 (iPhone OS 2.1)",
-      "players": [
-        "omni",
-        "apple-bridge"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#prey-invasion",
-      "art": "art/ios-prey-invasion-store.jpg",
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:23:06.811Z"
-    },
-    {
-      "id": "classic-quake-ii",
-      "title": "Quake II",
-      "platform": "Zeebo / BREW",
-      "edition": "Portuguese (Brazil)",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#quake-ii",
-      "art": "art/classic-quake-ii.png",
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:23:10.888Z"
-    },
-    {
-      "id": "classic-ratchet-clank-going-mobile",
-      "title": "Ratchet & Clank: Going Mobile",
-      "platform": "J2ME",
-      "edition": "English",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#ratchet--clank-going-mobile",
-      "art": "art/classic-ratchet-clank-going-mobile.png",
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:23:14.670Z"
-    },
-    {
-      "id": "classic-resident-evil-4",
-      "title": "Resident Evil 4",
-      "platform": "Zeebo / BREW",
-      "edition": "Spanish / Portuguese",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#resident-evil-4",
-      "art": "art/classic-resident-evil-4.png",
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:23:18.741Z"
-    },
-    {
-      "id": "classic-resident-evil-degeneration",
-      "title": "Resident Evil: Degeneration",
-      "platform": "N-Gage 2.0",
-      "edition": "Nokia 5320 compatibility profile",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#resident-evil-degeneration",
-      "art": "art/classic-resident-evil-degeneration-original-source.jpg",
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:23:22.608Z"
-    },
-    {
-      "id": "classic-resident-evil-genesis",
-      "title": "Resident Evil: Genesis",
-      "platform": "BREW",
-      "edition": "English",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#resident-evil-genesis",
-      "art": "art/classic-resident-evil-genesis.png",
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": "2026-11-02",
-      "updatedAt": "2026-11-17T20:23:34.253Z"
-    },
-    {
-      "id": "classic-resident-evil-uprising",
-      "title": "Resident Evil: Uprising",
-      "platform": "J2ME",
-      "edition": "Glu Mobile · v1.0.0",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#resident-evil-uprising",
-      "art": "art/classic-resident-evil-uprising.png",
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:23:39.470Z"
-    },
-    {
-      "id": "classic-rockman-great-adventure-on-5-islands",
-      "title": "Rockman: Great Adventure on 5 Islands",
-      "platform": "DoJa",
-      "edition": "English patch",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#rockman-great-adventure-on-5-islands",
-      "art": "art/classic-rockman-great-adventure-on-5-islands.png",
-      "status": "in-progress",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:23:46.668Z"
-    },
-    {
-      "id": "classic-rolling-with-katamari",
-      "title": "Rolling with Katamari",
-      "platform": "BREW",
-      "edition": "English",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#rolling-with-katamari",
-      "art": "art/classic-rolling-with-katamari.png",
-      "status": "in-progress",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:23:50.548Z"
-    },
-    {
-      "id": "ios-samurai-ii-vengeance",
-      "title": "Samurai II: Vengeance",
-      "platform": "iOS",
-      "edition": "Samurai II 1.0.1 (iOS 3.2)",
-      "players": [
-        "omni",
-        "apple-bridge"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#samurai-ii-vengeance",
-      "art": "art/ios-samurai-ii-vengeance-store.jpg",
-      "status": "in-progress",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:23:54.242Z"
-    },
-    {
-      "id": "classic-silent-hill-orphan",
-      "title": "Silent Hill: Orphan",
-      "platform": "J2ME",
-      "edition": "240×320 · six original languages",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#silent-hill-orphan",
-      "art": "art/classic-silent-hill-orphan-original-screen.jpg",
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:24:02.805Z"
-    },
-    {
-      "id": "ios-silent-hill-the-escape",
-      "title": "Silent Hill: The Escape",
-      "platform": "iOS",
-      "edition": "iOS 1.0.0 / iPhone OS 2.0",
-      "players": [
-        "omni",
-        "apple-bridge"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#silent-hill-the-escape",
-      "art": "art/ios-silent-hill-the-escape.jpg",
-      "status": "in-progress",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:24:10.980Z"
-    },
-    {
-      "id": "classic-sonic-jump",
-      "title": "Sonic Jump",
-      "platform": "DoJa",
-      "edition": "English patch",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#sonic-jump",
-      "art": "art/classic-sonic-jump.png",
-      "status": "in-progress",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:24:16.808Z"
-    },
-    {
-      "id": "classic-sonic-n",
-      "title": "Sonic N",
-      "platform": "N-Gage",
-      "edition": "Classic N-Gage edition",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#sonic-n",
-      "art": "art/classic-sonic-n.png",
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:24:24.879Z"
-    },
-    {
-      "id": "classic-south-park",
-      "title": "South Park",
-      "platform": "ExEn",
-      "edition": "English · 13 original minigames",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#south-park",
-      "art": "art/classic-south-park-original-title.png",
-      "status": "story-finished",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:24:36.815Z"
-    },
-    {
-      "id": "classic-spider-man-2-3d",
-      "title": "Spider-Man 2 3D",
-      "platform": "BREW",
-      "edition": "English · NY Rooftops",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#spider-man-2-3d",
-      "art": "art/classic-spider-man-2-3d.png",
-      "status": "opening",
-      "checkpoint": "Current blocker is at the start of the second mission",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:25:06.355Z"
-    },
-    {
-      "id": "classic-spider-man-doc-ock",
-      "title": "Spider-Man: Doc Ock",
-      "platform": "J2ME",
-      "edition": "Spider-Man VS Doc Ock · Sony Pictures · v6.2.20",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#spider-man-doc-ock",
-      "art": "art/classic-spider-man-doc-ock.png",
-      "status": "in-progress",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:25:14.495Z"
-    },
-    {
-      "id": "ios-spider-man-total-mayhem",
-      "title": "Spider-Man: Total Mayhem",
-      "platform": "iOS",
-      "edition": "1.0.0 / iOS 3.0",
-      "players": [
-        "omni",
-        "apple-bridge"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#spider-man-total-mayhem",
-      "art": "art/ios-spider-man-total-mayhem-store.jpg",
-      "status": "in-progress",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:25:19.589Z"
-    },
-    {
-      "id": "classic-star-wars-the-force-unleashed",
-      "title": "Star Wars: The Force Unleashed",
-      "platform": "N-Gage 2.0",
-      "edition": "Nokia 5320 compatibility profile",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#star-wars-the-force-unleashed",
-      "art": "art/classic-star-wars-the-force-unleashed.png",
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:25:23.805Z"
-    },
-    {
-      "id": "classic-techwars",
-      "title": "TechWars",
-      "platform": "N-Gage",
-      "edition": "Supported Symbian / classic N-Gage package",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#techwars",
-      "art": "art/classic-techwars-original-source.png",
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:25:29.065Z"
-    },
-    {
-      "id": "classic-the-elder-scrolls-iv-oblivion",
-      "title": "The Elder Scrolls IV: Oblivion",
-      "platform": "J2ME",
-      "edition": "English · v1.0.10 · 240×320",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#the-elder-scrolls-iv-oblivion",
-      "art": null,
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:25:33.079Z"
-    },
-    {
-      "id": "classic-the-elder-scrolls-travels-shadowkey",
-      "title": "The Elder Scrolls Travels: Shadowkey",
-      "platform": "N-Gage",
-      "edition": "Classic N-Gage edition",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#the-elder-scrolls-travels-shadowkey",
-      "art": "art/classic-the-elder-scrolls-travels-shadowkey-original-cover.jpg",
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:25:36.856Z"
-    },
-    {
-      "id": "classic-the-sims-2-pets",
-      "title": "The Sims 2: Pets",
-      "platform": "J2ME",
-      "edition": "v4.4.44",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#the-sims-2-pets",
-      "art": "art/classic-the-sims-2-pets.png",
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:25:40.176Z"
-    },
-    {
-      "id": "classic-the-witcher-crimson-trail",
-      "title": "The Witcher: Crimson Trail",
-      "platform": "J2ME",
-      "edition": "Russian · Nokia N73",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#the-witcher-crimson-trail",
-      "art": "art/classic-the-witcher-crimson-trail.png",
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:25:43.615Z"
-    },
-    {
-      "id": "classic-wolfenstein-rpg",
-      "title": "Wolfenstein RPG",
-      "platform": "BREW",
-      "edition": "English · v7.1.32",
-      "players": [
-        "omni"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#wolfenstein-rpg",
-      "art": "art/classic-wolfenstein-rpg.png",
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:25:46.677Z"
-    },
-    {
-      "id": "ios-zenonia",
-      "title": "Zenonia",
-      "platform": "iOS",
-      "edition": "1.7 / iOS 3.0",
-      "players": [
-        "omni",
-        "apple-bridge"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#zenonia",
-      "art": "art/ios-zenonia-store.jpg",
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:25:50.671Z"
-    },
-    {
-      "id": "ios-zombie-infection",
-      "title": "Zombie Infection",
-      "platform": "iOS",
-      "edition": "v1.0.0 / iOS 2.2.1",
-      "players": [
-        "omni",
-        "apple-bridge"
-      ],
-      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#zombie-infection",
-      "art": "art/ios-zombie-infection-store.jpg",
-      "status": "opening",
-      "checkpoint": "",
-      "lastPlayed": null,
-      "updatedAt": "2026-11-17T20:25:53.728Z"
-    }
-  ]
-}
+      "lastPlayed": nu
