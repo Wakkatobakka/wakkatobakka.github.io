@@ -1,5 +1,5 @@
 {
-  "version": "0.6.0",
+  "version": "0.6.1",
   "games": [
     {
       "id": "age-of-empires-ii-mobile",
@@ -138,6 +138,18 @@
       "instructions": "Find `brew2010/BIA240.rar` in the collection. Keep the game archive intact; Load Game → select it. The separately supplied BIA176 edition is not the recorded input for this bridge.",
       "credits": "",
       "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-brothers-in-arms"
+    },
+    {
+      "id": "call-of-duty-zombies",
+      "title": "Call of Duty: Zombies",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "1.3.0",
+      "files": "`Call of Duty Zombies 1.3.0.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/ios-ipa-collection/Call%20of%20Duty%20Zombies%201.3.0.ipa) · [View source page](https://archive.org/details/ios-ipa-collection)",
+      "instructions": "In Omni, tap Load Game and select the complete original IPA.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#call-of-duty-zombies"
     },
     {
       "id": "castlevania-puzzle-encore-of-the-night",
@@ -317,13 +329,14 @@
       "id": "doom-ii-rpg",
       "title": "DOOM II RPG",
       "platforms": [
-        "BREW"
+        "BREW",
+        "iPhone"
       ],
-      "edition": "English · LG AX830",
-      "files": "`d2rp.zip`",
-      "source": "[Download ZIP](https://archive.org/download/qualcomm-brew-games/Qualcomm%20BREW%20Games.zip/brew2018%2Fd2rp.zip)",
-      "sourceStatus": "The source file matches the saved Omni original.",
-      "instructions": "Find `brew2018/d2rp.zip` in the collection. Keep the game archive intact; Load Game → select it.",
+      "edition": "BREW · English · LG AX830 / iPhone edition",
+      "files": "`d2rp.zip` (BREW) or `Doom 2 RPG.ipa` (iPhone).",
+      "source": "[Download BREW ZIP](https://archive.org/download/qualcomm-brew-games/Qualcomm%20BREW%20Games.zip/brew2018%2Fd2rp.zip) · [Download iPhone IPA](https://archive.org/download/Doom2RPG/Doom%202%20RPG.ipa)",
+      "sourceStatus": "The BREW ZIP matches the saved Omni original. The iPhone IPA is listed in the Doom 2 RPG archive.",
+      "instructions": "Find `brew2018/d2rp.zip` in the collection. Keep the game archive intact; Load Game → select it. For iPhone, load the complete IPA. Each edition keeps its own saves.",
       "credits": "",
       "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-doom-ii-rpg"
     },
@@ -352,6 +365,18 @@
       "instructions": "Choose BREW, not J2ME. Load the original ZIP intact.",
       "credits": "",
       "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-doom-rpg"
+    },
+    {
+      "id": "doraemon-gadget-rush",
+      "title": "Doraemon Gadget Rush",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "1.0.1",
+      "files": "`Doraemon Gadget Rush 1.0.1.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/ios-ipa-collection/Doraemon%20Gadget%20Rush%201.0.1.ipa) · [View source page](https://archive.org/details/ios-ipa-collection)",
+      "instructions": "In Omni, tap Load Game and select the complete original IPA.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#doraemon-gadget-rush"
     },
     {
       "id": "dragon-island",
@@ -408,6 +433,18 @@
       "instructions": "Find `brew2010/DukeNukem3D_114.rar` in the collection. Keep the game archive intact; Load Game → select it. This entry is BREW; an ExEn Duke download is a different edition.",
       "credits": "",
       "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-duke-nukem-3d"
+    },
+    {
+      "id": "dungeon-hunter-ii",
+      "title": "Dungeon Hunter II",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "1.0.0",
+      "files": "`Dungeon Hunter 2 1.0.0.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/ios-ipa-collection/Dungeon%20Hunter%202%201.0.0.ipa) · [View source page](https://archive.org/details/ios-ipa-collection)",
+      "instructions": "In Omni, tap Load Game and select the complete original IPA.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#dungeon-hunter-ii"
     },
     {
       "id": "earthworm-jim-special-edition",
@@ -486,6 +523,18 @@
       "source": "[Download original IPA](https://archive.org/download/ios-ipa-collection/Grand%20Theft%20Auto%20Vice%20City%201.3.ipa) · [View source page](https://archive.org/details/ios-ipa-collection)",
       "instructions": "In Omni, tap `Load Game` and select the complete original IPA. If it came in split archive parts, extract them into one IPA first.",
       "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#gta-vice-city"
+    },
+    {
+      "id": "hexic",
+      "title": "Hexic",
+      "platforms": [
+        "Zune HD"
+      ],
+      "edition": "Zune HD",
+      "files": "`Hexic_Zune_EN.zip`",
+      "source": "Use your matching original Zune HD ZIP.",
+      "instructions": "In Omni, tap `Load Game` and select the intact ZIP.",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-hexic"
     },
     {
       "id": "infinity-blade-ii",
@@ -592,6 +641,18 @@
       "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#metal-gear-solid-touch"
     },
     {
+      "id": "mirrors-edge",
+      "title": "Mirror’s Edge",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "1.4.72",
+      "files": "`Mirror's Edge 1.4.72.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/ios-ipa-collection/Mirror%27s%20Edge%201.4.72.ipa) · [View source page](https://archive.org/details/ios-ipa-collection)",
+      "instructions": "In Omni, tap Load Game and select the complete original IPA.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#mirrors-edge"
+    },
+    {
       "id": "monster-hunter-i",
       "title": "Monster Hunter i",
       "platforms": [
@@ -616,6 +677,18 @@
       "source": "[Download original IPA](https://archive.org/download/ios-ipa-collection/MONSTER%20HUNTER%20Dynamic%20Hunting%201.03.ipa) · [View source page](https://archive.org/details/ios-ipa-collection)",
       "instructions": "In Omni, tap `Load Game` and select the complete original IPA. If it came in split archive parts, extract them into one IPA first.",
       "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#monster-hunter-dynamic-hunting"
+    },
+    {
+      "id": "mushihimesama-gaiden",
+      "title": "Mushihimesama Gaiden",
+      "platforms": [
+        "DoJa"
+      ],
+      "edition": "DoJa · Japanese",
+      "files": "`Mushihimesama_Gaiden_doja.zip`",
+      "source": "[Keitai World Launcher entry](https://wakkatobakka.github.io/doja-archive/games/mushihimesama-gaiden--aa7c5a9c/index.html)",
+      "instructions": "Find the Japanese Mushihimesama Gaiden entry in Keitai World Launcher. Import the complete DoJa ZIP.",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-mushihimesama-gaiden"
     },
     {
       "id": "mutant-alert",
@@ -687,6 +760,18 @@
       "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-orcs-elves-ii"
     },
     {
+      "id": "phoenix-wright-ace-attorney",
+      "title": "Phoenix Wright: Ace Attorney",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "1.0",
+      "files": "`Phoenix Wright Ace Attorney iphone 1.0.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/ios-ipa-collection/Phoenix%20Wright%20Ace%20Attorney%20iphone%201.0.ipa) · [View source page](https://archive.org/details/ios-ipa-collection)",
+      "instructions": "In Omni, tap Load Game and select the complete original IPA.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#phoenix-wright-ace-attorney"
+    },
+    {
       "id": "pocket-kingdom-own-the-world",
       "title": "Pocket Kingdom: Own the World",
       "platforms": [
@@ -699,6 +784,18 @@
       "instructions": "Choose the USA/Europe 08.11.2004 N-Gage download matching the named ZIP, then load it intact. The separately listed Review Kit packages are different downloads.",
       "credits": "",
       "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-pocket-kingdom-own-the-world"
+    },
+    {
+      "id": "predators",
+      "title": "Predators",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "1.0",
+      "files": "`Predators 1.0.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/ios-ipa-collection/Predators%201.0.ipa) · [View source page](https://archive.org/details/ios-ipa-collection)",
+      "instructions": "In Omni, tap Load Game and select the complete original IPA.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#predators"
     },
     {
       "id": "prey-invasion",
@@ -726,6 +823,18 @@
       "instructions": "Use the Zeebo/BREW original, not the PC, console or Java game. Keep the original ZIP intact.",
       "credits": "",
       "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-quake-ii"
+    },
+    {
+      "id": "rage-hd",
+      "title": "Rage HD",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "1.21",
+      "files": "`Rage HD 1.21.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/ios-ipa-collection/Rage%20HD%201.21.ipa) · [View source page](https://archive.org/details/ios-ipa-collection)",
+      "instructions": "In Omni, tap Load Game and select the complete original IPA.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#rage-hd"
     },
     {
       "id": "ratchet-clank-going-mobile",
@@ -907,6 +1016,30 @@
       "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-south-park"
     },
     {
+      "id": "space-battle-2",
+      "title": "Space Battle 2",
+      "platforms": [
+        "Zune HD"
+      ],
+      "edition": "Zune HD · English",
+      "files": "`Space Battle 2.zcp`",
+      "source": "Use your matching original Space Battle 2 ZCP.",
+      "instructions": "In Omni, tap `Load Game` and select the intact ZCP.",
+      "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-space-battle-2"
+    },
+    {
+      "id": "space-miner-space-ore-bust",
+      "title": "Space Miner: Space Ore Bust",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "1.2.0",
+      "files": "`Space Miner Space Ore Bust 1.2.0.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/ios-ipa-collection/Space%20Miner%20Space%20Ore%20Bust%201.2.0.ipa) · [View source page](https://archive.org/details/ios-ipa-collection)",
+      "instructions": "In Omni, tap Load Game and select the complete original IPA.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#space-miner-space-ore-bust"
+    },
+    {
       "id": "spider-man-2-3d",
       "title": "Spider-Man 2 3D",
       "platforms": [
@@ -959,6 +1092,30 @@
       "instructions": "Load the full `.n-gage` package directly. Omni prepares the required platform support automatically; J2ME, PC and console releases are different inputs.",
       "credits": "",
       "guideUrl": "https://github.com/Wakkatobakka/Omni-Player/blob/main/GAME_GUIDE.md#game-star-wars-the-force-unleashed"
+    },
+    {
+      "id": "street-fighter-iv",
+      "title": "Street Fighter IV",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "1.00.06",
+      "files": "`STREET FIGHTER IV 1.00.06.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/ios-ipa-collection/STREET%20FIGHTER%20IV%201.00.06.ipa) · [View source page](https://archive.org/details/ios-ipa-collection)",
+      "instructions": "In Omni, tap Load Game and select the complete original IPA.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#street-fighter-iv"
+    },
+    {
+      "id": "tap-tap-revenge-2",
+      "title": "Tap Tap Revenge 2",
+      "platforms": [
+        "iPhone"
+      ],
+      "edition": "2.1.1",
+      "files": "`Tap Tap Revenge 2 2.1.1.ipa`",
+      "source": "[Download original IPA](https://archive.org/download/ios-ipa-collection/Tap%20Tap%20Revenge%202%202.1.1.ipa) · [View source page](https://archive.org/details/ios-ipa-collection)",
+      "instructions": "In Omni, tap Load Game and select the complete original IPA.",
+      "guideUrl": "https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md#tap-tap-revenge-2"
     },
     {
       "id": "techwars",

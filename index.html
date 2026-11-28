@@ -253,7 +253,7 @@
 <div class="hero-grid">
 <div>
 <h1 id="hero-title">I get weird old phone games running on modern Android.</h1>
-<p class="hero-intro">I’m Wakka. <strong>Omni Player now plays supported iPhone games from Apple Bridge, too.</strong></p>
+<p class="hero-intro">I’m Wakka. <strong>Omni Player now has Zune HD games, too.</strong></p>
 <div class="hero-actions"><a class="btn btn-primary" href="https://github.com/Wakkatobakka/Omni-Player/releases" target="_blank" rel="noopener noreferrer">Get Omni Player <span class="arrow" aria-hidden="true">↗</span></a><a class="btn btn-apple" href="https://github.com/Wakkatobakka/Apple-Bridge/releases" target="_blank" rel="noopener noreferrer">Get Apple Bridge <span class="arrow" aria-hidden="true">↗</span></a><a class="btn btn-find" href="#games">Find a game <span class="arrow" aria-hidden="true">↓</span></a></div>
 </div>
 <div class="play-deck" id="gameplay">
@@ -317,7 +317,7 @@
 <div class="wrap omni-grid" id="play">
 <div class="omni-copy">
 <h2 id="omni-title">Omni Player</h2>
-<p>I got tired of juggling separate game bridges. Omni now supports <strong>79 games</strong> in one Android app.</p>
+<p>I got tired of juggling separate game bridges. Omni now supports <strong data-omni-count>92 games</strong> in one Android app. That includes Hexic and Space Battle 2 from the Zune HD.</p>
 <p>You supply the original game files for both players. The <a class="text-link" href="#games">Public Pile</a> and the <a class="text-link" href="https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md">Apple Bridge game guide</a> list the exact editions and filenames.</p>
 <div class="omni-actions"><a class="btn btn-primary" href="https://github.com/Wakkatobakka/Omni-Player/releases" target="_blank" rel="noopener noreferrer">Download the player <span class="arrow" aria-hidden="true">↗</span></a><a class="text-link" href="https://github.com/Wakkatobakka/Omni-Player" target="_blank" rel="noopener noreferrer">Setup & details <span aria-hidden="true">↗</span></a></div>
 <p class="compat mono">Android 11+ · ARM64</p>
@@ -343,13 +343,13 @@
 <div class="wrap apple-grid">
 <div class="apple-copy">
 <h2 id="apple-title">Apple Bridge</h2>
-<p>Apple Bridge runs <strong>21 early iPhone games</strong> on Android, including GTA Vice City, Mass Effect Infiltrator, and Dead Space.</p>
+<p>Apple Bridge runs <strong>32 iPhone games</strong> on Android, including Call of Duty: Zombies, DOOM II RPG, and Phoenix Wright: Ace Attorney.</p>
 <p>The games keep their original interfaces, touchscreen controls, and tilt inputs where they use them.</p>
 <div class="apple-actions"><a class="btn btn-apple" href="https://github.com/Wakkatobakka/Apple-Bridge/releases" target="_blank" rel="noopener noreferrer">Download Apple Bridge <span class="arrow" aria-hidden="true">↗</span></a><a class="text-link" href="https://github.com/Wakkatobakka/Apple-Bridge" target="_blank" rel="noopener noreferrer">Setup &amp; details <span aria-hidden="true">↗</span></a></div>
 <p class="compat mono">Android 11+ · ARM64</p>
 <a class="text-link apple-guide" href="https://github.com/Wakkatobakka/Apple-Bridge/blob/main/GAME_GUIDE.md" target="_blank" rel="noopener noreferrer">Apple Bridge game guide <span aria-hidden="true">↗</span></a>
 <p class="guide-intro"><a href="playthroughs/?collection=ios">My iPhone playthroughs ↗</a> — Published progress and checkpoint notes.</p>
-<p class="testing-note">Each included game is personally playtested through its tutorial and into the first level, often further. Full start-to-finish completion has not been verified for every title.</p>
+<p class="testing-note">Apple Bridge is a public beta. Report crashes or progression issues with the game and edition you used.</p>
 </div>
 <figure class="apple-recording">
 <video id="apple-gameplay-video" controls playsinline muted loop preload="none" poster="assets/apple-bridge/gta-vice-city.jpg" aria-label="GTA Vice City running in Apple Bridge on Android"><source src="videos/apple-bridge/gta-vice-city.mp4" type="video/mp4">Your browser cannot play this video. <a href="videos/apple-bridge/gta-vice-city.mp4">Open the GTA Vice City gameplay recording.</a></video>
@@ -553,7 +553,7 @@ function addField(parent,label,value){
 }
 
 function buildFilters(){
-  const present=[...new Set(games.flatMap(g=>g.platforms))],order=['BREW','DoJa','J2ME','ExEn','Zeebo','N-Gage','N-Gage 2.0','iPhone'];
+  const present=[...new Set(games.flatMap(g=>g.platforms))],order=['BREW','DoJa','J2ME','ExEn','Zeebo','N-Gage','N-Gage 2.0','Zune HD','iPhone'];
   present.sort((a,b)=>(order.indexOf(a)<0?99:order.indexOf(a))-(order.indexOf(b)<0?99:order.indexOf(b))||a.localeCompare(b));
   filters.replaceChildren();
   for(const name of ['All',...present]){
@@ -613,6 +613,7 @@ async function loadCatalog(){
   try{
     const data=JSON.parse(await fetchWithTimeout(CATALOG_URL));
     games=data.games;
+    document.querySelector('[data-omni-count]').textContent=games.length+' games';
     buildFilters();renderGames();search.disabled=false;
     status.textContent=games.length+' supported titles in Omni v'+data.version;
     openSharedGame();
